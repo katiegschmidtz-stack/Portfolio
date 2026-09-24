@@ -1,0 +1,45 @@
+// When an ingredient can't be used (allergen, diet), these are the closest
+// alternatives, best first.
+export const SUBSTITUTES: Record<string, string[]> = {
+  "ground-beef": ["plant-based-ground", "ground-turkey"],
+  "ground-turkey": ["plant-based-ground"],
+  "italian-sausage": ["plant-based-ground"],
+  "stewing-beef": ["plant-based-ground"],
+  "chicken-breast": ["tofu"],
+  "chicken-thighs": ["tofu"],
+  "beef-broth": ["vegetable-broth"],
+  "chicken-broth": ["vegetable-broth"],
+  "cheddar-cheese": ["dairy-free-shreds"],
+  mozzarella: ["dairy-free-shreds"],
+  "sour-cream": ["dairy-free-sour-cream"],
+  "greek-yogurt": ["coconut-yogurt"],
+  "yogurt-cups": ["coconut-yogurt"],
+  butter: ["dairy-free-butter"],
+  milk: ["oat-milk", "almond-milk"],
+  "peanut-butter": ["sunflower-seed-butter", "almond-butter"],
+  "almond-butter": ["sunflower-seed-butter"],
+  "bread-white": ["gluten-free-bread"],
+  "bread-whole-wheat": ["gluten-free-bread"],
+  spaghetti: ["gluten-free-pasta"],
+  penne: ["gluten-free-pasta"],
+  "flour-tortillas": ["corn-tortillas"],
+  cereal: ["oats"],
+  "granola-bars": ["trail-mix"],
+  "soy-sauce": [],
+};
+
+/** Starter list when we don't know the household's usual items yet. */
+export const STARTER_ESSENTIALS: { ingredient: string; qty: number }[] = [
+  { ingredient: "milk", qty: 1 },
+  { ingredient: "eggs", qty: 1 },
+  { ingredient: "bread-whole-wheat", qty: 1 },
+  { ingredient: "bananas", qty: 1 },
+  { ingredient: "apples", qty: 1 },
+  { ingredient: "butter", qty: 1 },
+  { ingredient: "greek-yogurt", qty: 1 },
+  { ingredient: "coffee", qty: 1 },
+  { ingredient: "peanut-butter", qty: 1 },
+  { ingredient: "spinach", qty: 1 },
+  { ingredient: "toilet-paper", qty: 1 },
+  { ingredient: "dish-soap", qty: 1 },
+];

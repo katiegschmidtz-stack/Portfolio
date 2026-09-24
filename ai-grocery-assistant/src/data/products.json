@@ -1,0 +1,6077 @@
+[
+ {
+  "id": "yellow-onion--big-sky-farms",
+  "ingredient": "yellow-onion",
+  "name": "Yellow Onion",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🧅",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.49,
+   "chinook-fresh": 1.49,
+   "foothills-food": 1.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "yellow-onion--market-basics",
+  "ingredient": "yellow-onion",
+  "name": "Yellow Onion",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🧅",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.29,
+   "chinook-fresh": 1.29,
+   "foothills-food": 0.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "red-onion--big-sky-farms",
+  "ingredient": "red-onion",
+  "name": "Red Onion",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🧅",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.79,
+   "chinook-fresh": 1.79,
+   "foothills-food": 1.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "red-onion--market-basics",
+  "ingredient": "red-onion",
+  "name": "Red Onion",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🧅",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.29,
+   "chinook-fresh": 1.29,
+   "foothills-food": 1.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "garlic--big-sky-farms",
+  "ingredient": "garlic",
+  "name": "Garlic",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🧄",
+  "size": "1 head",
+  "prices": {
+   "bow-valley": 0.99,
+   "chinook-fresh": 1.29,
+   "foothills-food": 0.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "garlic--market-basics",
+  "ingredient": "garlic",
+  "name": "Garlic",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🧄",
+  "size": "1 head",
+  "prices": {
+   "bow-valley": 0.79,
+   "chinook-fresh": 0.99,
+   "foothills-food": 0.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "red-bell-pepper--big-sky-farms",
+  "ingredient": "red-bell-pepper",
+  "name": "Red Bell Pepper",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🫑",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.99,
+   "chinook-fresh": 2.29,
+   "foothills-food": 1.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "foothills-food"
+  ]
+ },
+ {
+  "id": "red-bell-pepper--market-basics",
+  "ingredient": "red-bell-pepper",
+  "name": "Red Bell Pepper",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🫑",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.79,
+   "chinook-fresh": 1.79,
+   "foothills-food": 1.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "green-bell-pepper--big-sky-farms",
+  "ingredient": "green-bell-pepper",
+  "name": "Green Bell Pepper",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🫑",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.79,
+   "chinook-fresh": 1.79,
+   "foothills-food": 1.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "green-bell-pepper--market-basics",
+  "ingredient": "green-bell-pepper",
+  "name": "Green Bell Pepper",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🫑",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.29,
+   "chinook-fresh": 1.29,
+   "foothills-food": 1.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "jalapeno--big-sky-farms",
+  "ingredient": "jalapeno",
+  "name": "Jalapeño Peppers",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🌶️",
+  "size": "100 g",
+  "prices": {
+   "bow-valley": 0.99,
+   "chinook-fresh": 0.99,
+   "foothills-food": 0.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "jalapeno--market-basics",
+  "ingredient": "jalapeno",
+  "name": "Jalapeño Peppers",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🌶️",
+  "size": "100 g",
+  "prices": {
+   "bow-valley": 0.79,
+   "chinook-fresh": 0.79,
+   "foothills-food": 0.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "green-onions--big-sky-farms",
+  "ingredient": "green-onions",
+  "name": "Green Onions",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🧅",
+  "size": "1 bunch",
+  "prices": {
+   "bow-valley": 1.29,
+   "chinook-fresh": 1.49,
+   "foothills-food": 1.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "green-onions--market-basics",
+  "ingredient": "green-onions",
+  "name": "Green Onions",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🧅",
+  "size": "1 bunch",
+  "prices": {
+   "bow-valley": 1.29,
+   "chinook-fresh": 1.29,
+   "foothills-food": 0.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "cilantro--big-sky-farms",
+  "ingredient": "cilantro",
+  "name": "Cilantro",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🌿",
+  "size": "1 bunch",
+  "prices": {
+   "bow-valley": 1.49,
+   "chinook-fresh": 1.79,
+   "foothills-food": 1.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "cilantro--market-basics",
+  "ingredient": "cilantro",
+  "name": "Cilantro",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🌿",
+  "size": "1 bunch",
+  "prices": {
+   "bow-valley": 1.29,
+   "chinook-fresh": 1.29,
+   "foothills-food": 1.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "tomatoes--big-sky-farms",
+  "ingredient": "tomatoes",
+  "name": "Tomatoes on the Vine",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🍅",
+  "size": "680 g",
+  "prices": {
+   "bow-valley": 3.99,
+   "chinook-fresh": 4.49,
+   "foothills-food": 3.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "tomatoes--market-basics",
+  "ingredient": "tomatoes",
+  "name": "Tomatoes on the Vine",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🍅",
+  "size": "680 g",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.49,
+   "foothills-food": 3.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "avocado--big-sky-farms",
+  "ingredient": "avocado",
+  "name": "Avocado",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🥑",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.99,
+   "chinook-fresh": 1.99,
+   "foothills-food": 1.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "avocado--market-basics",
+  "ingredient": "avocado",
+  "name": "Avocado",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🥑",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.49,
+   "chinook-fresh": 1.79,
+   "foothills-food": 1.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "lime--big-sky-farms",
+  "ingredient": "lime",
+  "name": "Lime",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🍋",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 0.79,
+   "chinook-fresh": 0.79,
+   "foothills-food": 0.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "lime--market-basics",
+  "ingredient": "lime",
+  "name": "Lime",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🍋",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 0.79,
+   "chinook-fresh": 0.79,
+   "foothills-food": 0.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "lemon--big-sky-farms",
+  "ingredient": "lemon",
+  "name": "Lemon",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🍋",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 0.99,
+   "chinook-fresh": 0.99,
+   "foothills-food": 0.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "lemon--market-basics",
+  "ingredient": "lemon",
+  "name": "Lemon",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🍋",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 0.79,
+   "chinook-fresh": 0.79,
+   "foothills-food": 0.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "bananas--big-sky-farms",
+  "ingredient": "bananas",
+  "name": "Bananas",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🍌",
+  "size": "1 kg (about 6)",
+  "prices": {
+   "bow-valley": 1.79,
+   "chinook-fresh": 1.99,
+   "foothills-food": 1.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "bananas--market-basics",
+  "ingredient": "bananas",
+  "name": "Bananas",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🍌",
+  "size": "1 kg (about 6)",
+  "prices": {
+   "bow-valley": 1.49,
+   "chinook-fresh": 1.49,
+   "foothills-food": 1.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "apples--big-sky-farms",
+  "ingredient": "apples",
+  "name": "Gala Apples",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🍎",
+  "size": "1.36 kg bag",
+  "prices": {
+   "bow-valley": 5.49,
+   "chinook-fresh": 5.99,
+   "foothills-food": 5.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "apples--market-basics",
+  "ingredient": "apples",
+  "name": "Gala Apples",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🍎",
+  "size": "1.36 kg bag",
+  "prices": {
+   "bow-valley": 4.49,
+   "chinook-fresh": 4.79,
+   "foothills-food": 4.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "oranges--big-sky-farms",
+  "ingredient": "oranges",
+  "name": "Navel Oranges",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🍊",
+  "size": "1.36 kg bag",
+  "prices": {
+   "bow-valley": 5.99,
+   "chinook-fresh": 6.29,
+   "foothills-food": 5.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "oranges--market-basics",
+  "ingredient": "oranges",
+  "name": "Navel Oranges",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🍊",
+  "size": "1.36 kg bag",
+  "prices": {
+   "bow-valley": 4.99,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "strawberries--big-sky-farms",
+  "ingredient": "strawberries",
+  "name": "Strawberries",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🍓",
+  "size": "454 g",
+  "prices": {
+   "bow-valley": 4.99,
+   "chinook-fresh": 5.49,
+   "foothills-food": 4.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "strawberries--market-basics",
+  "ingredient": "strawberries",
+  "name": "Strawberries",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🍓",
+  "size": "454 g",
+  "prices": {
+   "bow-valley": 3.99,
+   "chinook-fresh": 4.49,
+   "foothills-food": 3.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "blueberries--big-sky-farms",
+  "ingredient": "blueberries",
+  "name": "Blueberries",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🫐",
+  "size": "340 g",
+  "prices": {
+   "bow-valley": 5.79,
+   "chinook-fresh": 5.79,
+   "foothills-food": 5.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "blueberries--market-basics",
+  "ingredient": "blueberries",
+  "name": "Blueberries",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🫐",
+  "size": "340 g",
+  "prices": {
+   "bow-valley": 4.49,
+   "chinook-fresh": 4.79,
+   "foothills-food": 4.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "grapes--big-sky-farms",
+  "ingredient": "grapes",
+  "name": "Red Seedless Grapes",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🍇",
+  "size": "1 kg",
+  "prices": {
+   "bow-valley": 6.29,
+   "chinook-fresh": 6.79,
+   "foothills-food": 5.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "grapes--market-basics",
+  "ingredient": "grapes",
+  "name": "Red Seedless Grapes",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🍇",
+  "size": "1 kg",
+  "prices": {
+   "bow-valley": 4.99,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "spinach--big-sky-farms",
+  "ingredient": "spinach",
+  "name": "Baby Spinach",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🥬",
+  "size": "312 g",
+  "prices": {
+   "bow-valley": 4.99,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "spinach--market-basics",
+  "ingredient": "spinach",
+  "name": "Baby Spinach",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🥬",
+  "size": "312 g",
+  "prices": {
+   "bow-valley": 4.29,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "bow-valley"
+  ]
+ },
+ {
+  "id": "romaine--big-sky-farms",
+  "ingredient": "romaine",
+  "name": "Romaine Hearts",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🥬",
+  "size": "3 pack",
+  "prices": {
+   "bow-valley": 4.79,
+   "chinook-fresh": 4.99,
+   "foothills-food": 4.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "romaine--market-basics",
+  "ingredient": "romaine",
+  "name": "Romaine Hearts",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🥬",
+  "size": "3 pack",
+  "prices": {
+   "bow-valley": 3.79,
+   "chinook-fresh": 3.99,
+   "foothills-food": 3.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "carrots--big-sky-farms",
+  "ingredient": "carrots",
+  "name": "Carrots",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🥕",
+  "size": "907 g bag",
+  "prices": {
+   "bow-valley": 2.79,
+   "chinook-fresh": 2.79,
+   "foothills-food": 2.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "carrots--market-basics",
+  "ingredient": "carrots",
+  "name": "Carrots",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🥕",
+  "size": "907 g bag",
+  "prices": {
+   "bow-valley": 1.99,
+   "chinook-fresh": 2.29,
+   "foothills-food": 1.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "celery--big-sky-farms",
+  "ingredient": "celery",
+  "name": "Celery",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🥬",
+  "size": "1 bunch",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.49,
+   "foothills-food": 2.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "celery--market-basics",
+  "ingredient": "celery",
+  "name": "Celery",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🥬",
+  "size": "1 bunch",
+  "prices": {
+   "bow-valley": 2.49,
+   "chinook-fresh": 2.79,
+   "foothills-food": 2.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "broccoli--big-sky-farms",
+  "ingredient": "broccoli",
+  "name": "Broccoli",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🥦",
+  "size": "1 crown",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "broccoli--market-basics",
+  "ingredient": "broccoli",
+  "name": "Broccoli",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🥦",
+  "size": "1 crown",
+  "prices": {
+   "bow-valley": 2.49,
+   "chinook-fresh": 2.79,
+   "foothills-food": 2.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "potatoes--big-sky-farms",
+  "ingredient": "potatoes",
+  "name": "Russet Potatoes",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🥔",
+  "size": "2.27 kg bag",
+  "prices": {
+   "bow-valley": 6.29,
+   "chinook-fresh": 6.79,
+   "foothills-food": 5.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "potatoes--market-basics",
+  "ingredient": "potatoes",
+  "name": "Russet Potatoes",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🥔",
+  "size": "2.27 kg bag",
+  "prices": {
+   "bow-valley": 4.99,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "sweet-potato--big-sky-farms",
+  "ingredient": "sweet-potato",
+  "name": "Sweet Potato",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🍠",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.99,
+   "chinook-fresh": 1.99,
+   "foothills-food": 1.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "sweet-potato--market-basics",
+  "ingredient": "sweet-potato",
+  "name": "Sweet Potato",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🍠",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.49,
+   "chinook-fresh": 1.79,
+   "foothills-food": 1.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "cucumber--big-sky-farms",
+  "ingredient": "cucumber",
+  "name": "English Cucumber",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🥒",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.79,
+   "chinook-fresh": 1.79,
+   "foothills-food": 1.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "cucumber--market-basics",
+  "ingredient": "cucumber",
+  "name": "English Cucumber",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🥒",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.29,
+   "chinook-fresh": 1.29,
+   "foothills-food": 1.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "mushrooms--big-sky-farms",
+  "ingredient": "mushrooms",
+  "name": "White Mushrooms",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🍄",
+  "size": "227 g",
+  "prices": {
+   "bow-valley": 2.99,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "mushrooms--market-basics",
+  "ingredient": "mushrooms",
+  "name": "White Mushrooms",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🍄",
+  "size": "227 g",
+  "prices": {
+   "bow-valley": 2.49,
+   "chinook-fresh": 2.79,
+   "foothills-food": 2.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "chinook-fresh"
+  ]
+ },
+ {
+  "id": "zucchini--big-sky-farms",
+  "ingredient": "zucchini",
+  "name": "Zucchini",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🥒",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.79,
+   "chinook-fresh": 1.79,
+   "foothills-food": 1.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "zucchini--market-basics",
+  "ingredient": "zucchini",
+  "name": "Zucchini",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🥒",
+  "size": "1 each",
+  "prices": {
+   "bow-valley": 1.29,
+   "chinook-fresh": 1.29,
+   "foothills-food": 1.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "corn-cobs--big-sky-farms",
+  "ingredient": "corn-cobs",
+  "name": "Sweet Corn",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Produce",
+  "emoji": "🌽",
+  "size": "4 cobs",
+  "prices": {
+   "bow-valley": 4.29,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "corn-cobs--market-basics",
+  "ingredient": "corn-cobs",
+  "name": "Sweet Corn",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Produce",
+  "emoji": "🌽",
+  "size": "4 cobs",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.49,
+   "foothills-food": 3.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "ground-beef--stampede-meats",
+  "ingredient": "ground-beef",
+  "name": "Lean Ground Beef",
+  "brand": "Stampede Meats",
+  "tier": "national",
+  "category": "Meat & Seafood",
+  "emoji": "🥩",
+  "size": "454 g",
+  "prices": {
+   "bow-valley": 8.29,
+   "chinook-fresh": 8.79,
+   "foothills-food": 7.49
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "ground-beef--rocky-ridge-ranch",
+  "ingredient": "ground-beef",
+  "name": "Lean Ground Beef",
+  "brand": "Rocky Ridge Ranch",
+  "tier": "national",
+  "category": "Meat & Seafood",
+  "emoji": "🥩",
+  "size": "454 g",
+  "prices": {
+   "bow-valley": 9.29,
+   "chinook-fresh": 9.99,
+   "foothills-food": 8.79
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "ground-beef--market-basics",
+  "ingredient": "ground-beef",
+  "name": "Lean Ground Beef",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Meat & Seafood",
+  "emoji": "🥩",
+  "size": "454 g",
+  "prices": {
+   "bow-valley": 6.49,
+   "chinook-fresh": 6.99,
+   "foothills-food": 6.29
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "ground-turkey--stampede-meats",
+  "ingredient": "ground-turkey",
+  "name": "Lean Ground Turkey",
+  "brand": "Stampede Meats",
+  "tier": "national",
+  "category": "Meat & Seafood",
+  "emoji": "🦃",
+  "size": "454 g",
+  "prices": {
+   "bow-valley": 7.79,
+   "chinook-fresh": 7.99,
+   "foothills-food": 7.29
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "ground-turkey--market-basics",
+  "ingredient": "ground-turkey",
+  "name": "Lean Ground Turkey",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Meat & Seafood",
+  "emoji": "🦃",
+  "size": "454 g",
+  "prices": {
+   "bow-valley": 6.29,
+   "chinook-fresh": 6.49,
+   "foothills-food": 5.79
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "chicken-breast--stampede-meats",
+  "ingredient": "chicken-breast",
+  "name": "Boneless Chicken Breasts",
+  "brand": "Stampede Meats",
+  "tier": "national",
+  "category": "Meat & Seafood",
+  "emoji": "🍗",
+  "size": "about 900 g",
+  "prices": {
+   "bow-valley": 15.79,
+   "chinook-fresh": 17.29,
+   "foothills-food": 14.79
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "chicken-breast--rocky-ridge-ranch",
+  "ingredient": "chicken-breast",
+  "name": "Boneless Chicken Breasts",
+  "brand": "Rocky Ridge Ranch",
+  "tier": "national",
+  "category": "Meat & Seafood",
+  "emoji": "🍗",
+  "size": "about 900 g",
+  "prices": {
+   "bow-valley": 17.79,
+   "chinook-fresh": 18.79,
+   "foothills-food": 16.99
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "chicken-breast--market-basics",
+  "ingredient": "chicken-breast",
+  "name": "Boneless Chicken Breasts",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Meat & Seafood",
+  "emoji": "🍗",
+  "size": "about 900 g",
+  "prices": {
+   "bow-valley": 12.99,
+   "chinook-fresh": 13.99,
+   "foothills-food": 12.29
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "chicken-thighs--stampede-meats",
+  "ingredient": "chicken-thighs",
+  "name": "Boneless Chicken Thighs",
+  "brand": "Stampede Meats",
+  "tier": "national",
+  "category": "Meat & Seafood",
+  "emoji": "🍗",
+  "size": "about 800 g",
+  "prices": {
+   "bow-valley": 11.99,
+   "chinook-fresh": 12.79,
+   "foothills-food": 11.79
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "chicken-thighs--market-basics",
+  "ingredient": "chicken-thighs",
+  "name": "Boneless Chicken Thighs",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Meat & Seafood",
+  "emoji": "🍗",
+  "size": "about 800 g",
+  "prices": {
+   "bow-valley": 9.49,
+   "chinook-fresh": 10.79,
+   "foothills-food": 8.99
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "bacon--stampede-meats",
+  "ingredient": "bacon",
+  "name": "Smoked Bacon",
+  "brand": "Stampede Meats",
+  "tier": "national",
+  "category": "Meat & Seafood",
+  "emoji": "🥓",
+  "size": "375 g",
+  "prices": {
+   "bow-valley": 7.29,
+   "chinook-fresh": 7.49,
+   "foothills-food": 6.49
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "bacon--market-basics",
+  "ingredient": "bacon",
+  "name": "Smoked Bacon",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Meat & Seafood",
+  "emoji": "🥓",
+  "size": "375 g",
+  "prices": {
+   "bow-valley": 5.79,
+   "chinook-fresh": 5.99,
+   "foothills-food": 5.29
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "pork-chops--stampede-meats",
+  "ingredient": "pork-chops",
+  "name": "Pork Loin Chops",
+  "brand": "Stampede Meats",
+  "tier": "national",
+  "category": "Meat & Seafood",
+  "emoji": "🥩",
+  "size": "about 600 g",
+  "prices": {
+   "bow-valley": 9.79,
+   "chinook-fresh": 9.99,
+   "foothills-food": 9.29
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "pork-chops--market-basics",
+  "ingredient": "pork-chops",
+  "name": "Pork Loin Chops",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Meat & Seafood",
+  "emoji": "🥩",
+  "size": "about 600 g",
+  "prices": {
+   "bow-valley": 7.79,
+   "chinook-fresh": 7.99,
+   "foothills-food": 7.49
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "stewing-beef--stampede-meats",
+  "ingredient": "stewing-beef",
+  "name": "Stewing Beef",
+  "brand": "Stampede Meats",
+  "tier": "national",
+  "category": "Meat & Seafood",
+  "emoji": "🥩",
+  "size": "about 680 g",
+  "prices": {
+   "bow-valley": 13.29,
+   "chinook-fresh": 14.49,
+   "foothills-food": 12.79
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "stewing-beef--market-basics",
+  "ingredient": "stewing-beef",
+  "name": "Stewing Beef",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Meat & Seafood",
+  "emoji": "🥩",
+  "size": "about 680 g",
+  "prices": {
+   "bow-valley": 11.29,
+   "chinook-fresh": 11.99,
+   "foothills-food": 10.49
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "italian-sausage--stampede-meats",
+  "ingredient": "italian-sausage",
+  "name": "Mild Italian Sausage",
+  "brand": "Stampede Meats",
+  "tier": "national",
+  "category": "Meat & Seafood",
+  "emoji": "🌭",
+  "size": "500 g",
+  "prices": {
+   "bow-valley": 8.29,
+   "chinook-fresh": 8.49,
+   "foothills-food": 7.99
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": [
+   "bow-valley"
+  ]
+ },
+ {
+  "id": "italian-sausage--market-basics",
+  "ingredient": "italian-sausage",
+  "name": "Mild Italian Sausage",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Meat & Seafood",
+  "emoji": "🌭",
+  "size": "500 g",
+  "prices": {
+   "bow-valley": 6.49,
+   "chinook-fresh": 6.79,
+   "foothills-food": 5.99
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "salmon--northern-catch",
+  "ingredient": "salmon",
+  "name": "Atlantic Salmon Fillets",
+  "brand": "Northern Catch",
+  "tier": "national",
+  "category": "Meat & Seafood",
+  "emoji": "🐟",
+  "size": "2 x 170 g",
+  "prices": {
+   "bow-valley": 13.29,
+   "chinook-fresh": 13.79,
+   "foothills-food": 12.29
+  },
+  "allergens": [
+   "fish"
+  ],
+  "tags": [
+   "fish"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "salmon--market-basics",
+  "ingredient": "salmon",
+  "name": "Atlantic Salmon Fillets",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Meat & Seafood",
+  "emoji": "🐟",
+  "size": "2 x 170 g",
+  "prices": {
+   "bow-valley": 10.79,
+   "chinook-fresh": 11.49,
+   "foothills-food": 9.79
+  },
+  "allergens": [
+   "fish"
+  ],
+  "tags": [
+   "fish"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "shrimp--northern-catch",
+  "ingredient": "shrimp",
+  "name": "Raw Shrimp, Frozen",
+  "brand": "Northern Catch",
+  "tier": "national",
+  "category": "Meat & Seafood",
+  "emoji": "🦐",
+  "size": "340 g",
+  "prices": {
+   "bow-valley": 12.49,
+   "chinook-fresh": 12.99,
+   "foothills-food": 11.29
+  },
+  "allergens": [
+   "shellfish"
+  ],
+  "tags": [
+   "fish"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "shrimp--market-basics",
+  "ingredient": "shrimp",
+  "name": "Raw Shrimp, Frozen",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Meat & Seafood",
+  "emoji": "🦐",
+  "size": "340 g",
+  "prices": {
+   "bow-valley": 9.49,
+   "chinook-fresh": 10.29,
+   "foothills-food": 8.99
+  },
+  "allergens": [
+   "shellfish"
+  ],
+  "tags": [
+   "fish"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "sliced-ham--stampede-meats",
+  "ingredient": "sliced-ham",
+  "name": "Sliced Black Forest Ham",
+  "brand": "Stampede Meats",
+  "tier": "national",
+  "category": "Meat & Seafood",
+  "emoji": "🍖",
+  "size": "175 g",
+  "prices": {
+   "bow-valley": 4.79,
+   "chinook-fresh": 4.79,
+   "foothills-food": 4.49
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "sliced-ham--market-basics",
+  "ingredient": "sliced-ham",
+  "name": "Sliced Black Forest Ham",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Meat & Seafood",
+  "emoji": "🍖",
+  "size": "175 g",
+  "prices": {
+   "bow-valley": 3.79,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.49
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "sliced-turkey--stampede-meats",
+  "ingredient": "sliced-turkey",
+  "name": "Sliced Oven-Roasted Turkey",
+  "brand": "Stampede Meats",
+  "tier": "national",
+  "category": "Meat & Seafood",
+  "emoji": "🦃",
+  "size": "175 g",
+  "prices": {
+   "bow-valley": 4.99,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.99
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "sliced-turkey--market-basics",
+  "ingredient": "sliced-turkey",
+  "name": "Sliced Oven-Roasted Turkey",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Meat & Seafood",
+  "emoji": "🦃",
+  "size": "175 g",
+  "prices": {
+   "bow-valley": 4.29,
+   "chinook-fresh": 4.49,
+   "foothills-food": 3.99
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "milk--wild-rose-dairy",
+  "ingredient": "milk",
+  "name": "2% Milk",
+  "brand": "Wild Rose Dairy",
+  "tier": "national",
+  "category": "Dairy & Eggs",
+  "emoji": "🥛",
+  "size": "2 L",
+  "prices": {
+   "bow-valley": 5.79,
+   "chinook-fresh": 5.79,
+   "foothills-food": 5.29
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "milk--maple-crest",
+  "ingredient": "milk",
+  "name": "2% Milk",
+  "brand": "Maple Crest",
+  "tier": "national",
+  "category": "Dairy & Eggs",
+  "emoji": "🥛",
+  "size": "2 L",
+  "prices": {
+   "bow-valley": 6.29,
+   "chinook-fresh": 6.79,
+   "foothills-food": 5.99
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "milk--market-basics",
+  "ingredient": "milk",
+  "name": "2% Milk",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Dairy & Eggs",
+  "emoji": "🥛",
+  "size": "2 L",
+  "prices": {
+   "bow-valley": 4.49,
+   "chinook-fresh": 4.79,
+   "foothills-food": 4.29
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "eggs--wild-rose-dairy",
+  "ingredient": "eggs",
+  "name": "Large Eggs",
+  "brand": "Wild Rose Dairy",
+  "tier": "national",
+  "category": "Dairy & Eggs",
+  "emoji": "🥚",
+  "size": "12 pack",
+  "prices": {
+   "bow-valley": 4.99,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.79
+  },
+  "allergens": [
+   "egg"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "eggs--market-basics",
+  "ingredient": "eggs",
+  "name": "Large Eggs",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Dairy & Eggs",
+  "emoji": "🥚",
+  "size": "12 pack",
+  "prices": {
+   "bow-valley": 3.99,
+   "chinook-fresh": 3.99,
+   "foothills-food": 3.79
+  },
+  "allergens": [
+   "egg"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "butter--wild-rose-dairy",
+  "ingredient": "butter",
+  "name": "Salted Butter",
+  "brand": "Wild Rose Dairy",
+  "tier": "national",
+  "category": "Dairy & Eggs",
+  "emoji": "🧈",
+  "size": "454 g",
+  "prices": {
+   "bow-valley": 7.29,
+   "chinook-fresh": 7.49,
+   "foothills-food": 6.49
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "butter--market-basics",
+  "ingredient": "butter",
+  "name": "Salted Butter",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Dairy & Eggs",
+  "emoji": "🧈",
+  "size": "454 g",
+  "prices": {
+   "bow-valley": 5.79,
+   "chinook-fresh": 6.29,
+   "foothills-food": 5.29
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "cheddar-cheese--wild-rose-dairy",
+  "ingredient": "cheddar-cheese",
+  "name": "Shredded Old Cheddar",
+  "brand": "Wild Rose Dairy",
+  "tier": "national",
+  "category": "Dairy & Eggs",
+  "emoji": "🧀",
+  "size": "320 g",
+  "prices": {
+   "bow-valley": 7.49,
+   "chinook-fresh": 8.29,
+   "foothills-food": 6.99
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": [
+   "foothills-food"
+  ]
+ },
+ {
+  "id": "cheddar-cheese--maple-crest",
+  "ingredient": "cheddar-cheese",
+  "name": "Shredded Old Cheddar",
+  "brand": "Maple Crest",
+  "tier": "national",
+  "category": "Dairy & Eggs",
+  "emoji": "🧀",
+  "size": "320 g",
+  "prices": {
+   "bow-valley": 8.49,
+   "chinook-fresh": 9.29,
+   "foothills-food": 7.99
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "cheddar-cheese--market-basics",
+  "ingredient": "cheddar-cheese",
+  "name": "Shredded Old Cheddar",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Dairy & Eggs",
+  "emoji": "🧀",
+  "size": "320 g",
+  "prices": {
+   "bow-valley": 5.99,
+   "chinook-fresh": 6.79,
+   "foothills-food": 5.79
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "mozzarella--wild-rose-dairy",
+  "ingredient": "mozzarella",
+  "name": "Mozzarella Block",
+  "brand": "Wild Rose Dairy",
+  "tier": "national",
+  "category": "Dairy & Eggs",
+  "emoji": "🧀",
+  "size": "340 g",
+  "prices": {
+   "bow-valley": 6.99,
+   "chinook-fresh": 7.49,
+   "foothills-food": 6.79
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "mozzarella--market-basics",
+  "ingredient": "mozzarella",
+  "name": "Mozzarella Block",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Dairy & Eggs",
+  "emoji": "🧀",
+  "size": "340 g",
+  "prices": {
+   "bow-valley": 5.79,
+   "chinook-fresh": 6.29,
+   "foothills-food": 5.49
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "parmesan--wild-rose-dairy",
+  "ingredient": "parmesan",
+  "name": "Grated Parmesan",
+  "brand": "Wild Rose Dairy",
+  "tier": "national",
+  "category": "Dairy & Eggs",
+  "emoji": "🧀",
+  "size": "250 g",
+  "prices": {
+   "bow-valley": 6.49,
+   "chinook-fresh": 6.99,
+   "foothills-food": 6.29
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "parmesan--market-basics",
+  "ingredient": "parmesan",
+  "name": "Grated Parmesan",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Dairy & Eggs",
+  "emoji": "🧀",
+  "size": "250 g",
+  "prices": {
+   "bow-valley": 5.29,
+   "chinook-fresh": 5.79,
+   "foothills-food": 5.29
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "sour-cream--wild-rose-dairy",
+  "ingredient": "sour-cream",
+  "name": "Sour Cream 14%",
+  "brand": "Wild Rose Dairy",
+  "tier": "national",
+  "category": "Dairy & Eggs",
+  "emoji": "🥣",
+  "size": "500 mL",
+  "prices": {
+   "bow-valley": 3.49,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.49
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "sour-cream--market-basics",
+  "ingredient": "sour-cream",
+  "name": "Sour Cream 14%",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Dairy & Eggs",
+  "emoji": "🥣",
+  "size": "500 mL",
+  "prices": {
+   "bow-valley": 2.79,
+   "chinook-fresh": 2.99,
+   "foothills-food": 2.79
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "greek-yogurt--wild-rose-dairy",
+  "ingredient": "greek-yogurt",
+  "name": "Plain Greek Yogurt",
+  "brand": "Wild Rose Dairy",
+  "tier": "national",
+  "category": "Dairy & Eggs",
+  "emoji": "🥣",
+  "size": "750 g",
+  "prices": {
+   "bow-valley": 5.99,
+   "chinook-fresh": 6.29,
+   "foothills-food": 5.79
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "greek-yogurt--maple-crest",
+  "ingredient": "greek-yogurt",
+  "name": "Plain Greek Yogurt",
+  "brand": "Maple Crest",
+  "tier": "national",
+  "category": "Dairy & Eggs",
+  "emoji": "🥣",
+  "size": "750 g",
+  "prices": {
+   "bow-valley": 6.99,
+   "chinook-fresh": 7.29,
+   "foothills-food": 6.49
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "greek-yogurt--market-basics",
+  "ingredient": "greek-yogurt",
+  "name": "Plain Greek Yogurt",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Dairy & Eggs",
+  "emoji": "🥣",
+  "size": "750 g",
+  "prices": {
+   "bow-valley": 4.99,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.79
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "yogurt-cups--wild-rose-dairy",
+  "ingredient": "yogurt-cups",
+  "name": "Fruit Yogurt Cups",
+  "brand": "Wild Rose Dairy",
+  "tier": "national",
+  "category": "Dairy & Eggs",
+  "emoji": "🥣",
+  "size": "8 x 100 g",
+  "prices": {
+   "bow-valley": 5.29,
+   "chinook-fresh": 5.49,
+   "foothills-food": 4.79
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "yogurt-cups--market-basics",
+  "ingredient": "yogurt-cups",
+  "name": "Fruit Yogurt Cups",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Dairy & Eggs",
+  "emoji": "🥣",
+  "size": "8 x 100 g",
+  "prices": {
+   "bow-valley": 4.29,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.99
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "cream-cheese--wild-rose-dairy",
+  "ingredient": "cream-cheese",
+  "name": "Cream Cheese",
+  "brand": "Wild Rose Dairy",
+  "tier": "national",
+  "category": "Dairy & Eggs",
+  "emoji": "🧀",
+  "size": "250 g",
+  "prices": {
+   "bow-valley": 4.29,
+   "chinook-fresh": 4.49,
+   "foothills-food": 4.29
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "cream-cheese--market-basics",
+  "ingredient": "cream-cheese",
+  "name": "Cream Cheese",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Dairy & Eggs",
+  "emoji": "🧀",
+  "size": "250 g",
+  "prices": {
+   "bow-valley": 3.49,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.49
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "whipping-cream--wild-rose-dairy",
+  "ingredient": "whipping-cream",
+  "name": "Whipping Cream 35%",
+  "brand": "Wild Rose Dairy",
+  "tier": "national",
+  "category": "Dairy & Eggs",
+  "emoji": "🥛",
+  "size": "473 mL",
+  "prices": {
+   "bow-valley": 4.79,
+   "chinook-fresh": 4.79,
+   "foothills-food": 4.29
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "whipping-cream--market-basics",
+  "ingredient": "whipping-cream",
+  "name": "Whipping Cream 35%",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Dairy & Eggs",
+  "emoji": "🥛",
+  "size": "473 mL",
+  "prices": {
+   "bow-valley": 3.79,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.79
+  },
+  "allergens": [
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "oat-milk--prairie-oat-co",
+  "ingredient": "oat-milk",
+  "name": "Oat Beverage",
+  "brand": "Prairie Oat Co.",
+  "tier": "national",
+  "category": "Plant-Based",
+  "emoji": "🥛",
+  "size": "1.75 L",
+  "prices": {
+   "bow-valley": 4.79,
+   "chinook-fresh": 4.99,
+   "foothills-food": 4.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "oat-milk--market-basics",
+  "ingredient": "oat-milk",
+  "name": "Oat Beverage",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Plant-Based",
+  "emoji": "🥛",
+  "size": "1.75 L",
+  "prices": {
+   "bow-valley": 3.99,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "almond-milk--prairie-oat-co",
+  "ingredient": "almond-milk",
+  "name": "Almond Beverage",
+  "brand": "Prairie Oat Co.",
+  "tier": "national",
+  "category": "Plant-Based",
+  "emoji": "🥛",
+  "size": "1.89 L",
+  "prices": {
+   "bow-valley": 4.49,
+   "chinook-fresh": 4.99,
+   "foothills-food": 4.49
+  },
+  "allergens": [
+   "tree-nut"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "almond-milk--market-basics",
+  "ingredient": "almond-milk",
+  "name": "Almond Beverage",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Plant-Based",
+  "emoji": "🥛",
+  "size": "1.89 L",
+  "prices": {
+   "bow-valley": 3.79,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.49
+  },
+  "allergens": [
+   "tree-nut"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "dairy-free-shreds--green-pasture",
+  "ingredient": "dairy-free-shreds",
+  "name": "Dairy-Free Cheddar-Style Shreds",
+  "brand": "Green Pasture",
+  "tier": "national",
+  "category": "Plant-Based",
+  "emoji": "🧀",
+  "size": "200 g",
+  "prices": {
+   "bow-valley": 6.49,
+   "chinook-fresh": 6.99,
+   "foothills-food": 6.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "dairy-free-shreds--market-basics",
+  "ingredient": "dairy-free-shreds",
+  "name": "Dairy-Free Cheddar-Style Shreds",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Plant-Based",
+  "emoji": "🧀",
+  "size": "200 g",
+  "prices": {
+   "bow-valley": 5.29,
+   "chinook-fresh": 5.49,
+   "foothills-food": 5.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "dairy-free-sour-cream--green-pasture",
+  "ingredient": "dairy-free-sour-cream",
+  "name": "Dairy-Free Sour Cream",
+  "brand": "Green Pasture",
+  "tier": "national",
+  "category": "Plant-Based",
+  "emoji": "🥣",
+  "size": "340 g",
+  "prices": {
+   "bow-valley": 4.99,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "dairy-free-sour-cream--market-basics",
+  "ingredient": "dairy-free-sour-cream",
+  "name": "Dairy-Free Sour Cream",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Plant-Based",
+  "emoji": "🥣",
+  "size": "340 g",
+  "prices": {
+   "bow-valley": 3.99,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "dairy-free-butter--green-pasture",
+  "ingredient": "dairy-free-butter",
+  "name": "Plant Butter",
+  "brand": "Green Pasture",
+  "tier": "national",
+  "category": "Plant-Based",
+  "emoji": "🧈",
+  "size": "454 g",
+  "prices": {
+   "bow-valley": 6.49,
+   "chinook-fresh": 7.29,
+   "foothills-food": 6.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "dairy-free-butter--market-basics",
+  "ingredient": "dairy-free-butter",
+  "name": "Plant Butter",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Plant-Based",
+  "emoji": "🧈",
+  "size": "454 g",
+  "prices": {
+   "bow-valley": 5.29,
+   "chinook-fresh": 5.79,
+   "foothills-food": 4.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "coconut-yogurt--green-pasture",
+  "ingredient": "coconut-yogurt",
+  "name": "Coconut Yogurt",
+  "brand": "Green Pasture",
+  "tier": "national",
+  "category": "Plant-Based",
+  "emoji": "🥥",
+  "size": "500 g",
+  "prices": {
+   "bow-valley": 6.29,
+   "chinook-fresh": 6.49,
+   "foothills-food": 5.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "coconut-yogurt--market-basics",
+  "ingredient": "coconut-yogurt",
+  "name": "Coconut Yogurt",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Plant-Based",
+  "emoji": "🥥",
+  "size": "500 g",
+  "prices": {
+   "bow-valley": 4.99,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "plant-based-ground--green-pasture",
+  "ingredient": "plant-based-ground",
+  "name": "Plant-Based Ground",
+  "brand": "Green Pasture",
+  "tier": "national",
+  "category": "Plant-Based",
+  "emoji": "🌱",
+  "size": "340 g",
+  "prices": {
+   "bow-valley": 7.29,
+   "chinook-fresh": 7.49,
+   "foothills-food": 6.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "plant-based-ground--market-basics",
+  "ingredient": "plant-based-ground",
+  "name": "Plant-Based Ground",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Plant-Based",
+  "emoji": "🌱",
+  "size": "340 g",
+  "prices": {
+   "bow-valley": 5.79,
+   "chinook-fresh": 6.29,
+   "foothills-food": 5.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "tofu--green-pasture",
+  "ingredient": "tofu",
+  "name": "Firm Tofu",
+  "brand": "Green Pasture",
+  "tier": "national",
+  "category": "Plant-Based",
+  "emoji": "⬜",
+  "size": "454 g",
+  "prices": {
+   "bow-valley": 3.79,
+   "chinook-fresh": 3.99,
+   "foothills-food": 3.29
+  },
+  "allergens": [
+   "soy"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "tofu--market-basics",
+  "ingredient": "tofu",
+  "name": "Firm Tofu",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Plant-Based",
+  "emoji": "⬜",
+  "size": "454 g",
+  "prices": {
+   "bow-valley": 2.79,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.79
+  },
+  "allergens": [
+   "soy"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "veggie-burgers--green-pasture",
+  "ingredient": "veggie-burgers",
+  "name": "Veggie Burgers",
+  "brand": "Green Pasture",
+  "tier": "national",
+  "category": "Plant-Based",
+  "emoji": "🍔",
+  "size": "4 pack",
+  "prices": {
+   "bow-valley": 6.79,
+   "chinook-fresh": 6.99,
+   "foothills-food": 6.49
+  },
+  "allergens": [
+   "soy",
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "veggie-burgers--market-basics",
+  "ingredient": "veggie-burgers",
+  "name": "Veggie Burgers",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Plant-Based",
+  "emoji": "🍔",
+  "size": "4 pack",
+  "prices": {
+   "bow-valley": 5.29,
+   "chinook-fresh": 5.49,
+   "foothills-food": 4.99
+  },
+  "allergens": [
+   "soy",
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "bread-white--bowness-bakery",
+  "ingredient": "bread-white",
+  "name": "Sliced White Bread",
+  "brand": "Bowness Bakery",
+  "tier": "national",
+  "category": "Bakery",
+  "emoji": "🍞",
+  "size": "675 g",
+  "prices": {
+   "bow-valley": 3.49,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.49
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "foothills-food"
+  ]
+ },
+ {
+  "id": "bread-white--market-basics",
+  "ingredient": "bread-white",
+  "name": "Sliced White Bread",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Bakery",
+  "emoji": "🍞",
+  "size": "675 g",
+  "prices": {
+   "bow-valley": 2.99,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.79
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "bread-whole-wheat--bowness-bakery",
+  "ingredient": "bread-whole-wheat",
+  "name": "Whole Wheat Bread",
+  "brand": "Bowness Bakery",
+  "tier": "national",
+  "category": "Bakery",
+  "emoji": "🍞",
+  "size": "675 g",
+  "prices": {
+   "bow-valley": 3.79,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.79
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "bread-whole-wheat--market-basics",
+  "ingredient": "bread-whole-wheat",
+  "name": "Whole Wheat Bread",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Bakery",
+  "emoji": "🍞",
+  "size": "675 g",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.99
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "gluten-free-bread--bowness-bakery",
+  "ingredient": "gluten-free-bread",
+  "name": "Gluten-Free White Bread",
+  "brand": "Bowness Bakery",
+  "tier": "national",
+  "category": "Bakery",
+  "emoji": "🍞",
+  "size": "454 g",
+  "prices": {
+   "bow-valley": 6.79,
+   "chinook-fresh": 7.79,
+   "foothills-food": 6.79
+  },
+  "allergens": [
+   "egg"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "gluten-free-bread--market-basics",
+  "ingredient": "gluten-free-bread",
+  "name": "Gluten-Free White Bread",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Bakery",
+  "emoji": "🍞",
+  "size": "454 g",
+  "prices": {
+   "bow-valley": 5.49,
+   "chinook-fresh": 5.99,
+   "foothills-food": 5.49
+  },
+  "allergens": [
+   "egg"
+  ],
+  "tags": [],
+  "outOfStockAt": [
+   "chinook-fresh"
+  ]
+ },
+ {
+  "id": "bagels--bowness-bakery",
+  "ingredient": "bagels",
+  "name": "Sesame Bagels",
+  "brand": "Bowness Bakery",
+  "tier": "national",
+  "category": "Bakery",
+  "emoji": "🥯",
+  "size": "6 pack",
+  "prices": {
+   "bow-valley": 3.99,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.99
+  },
+  "allergens": [
+   "gluten",
+   "sesame"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "bagels--market-basics",
+  "ingredient": "bagels",
+  "name": "Sesame Bagels",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Bakery",
+  "emoji": "🥯",
+  "size": "6 pack",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.49,
+   "foothills-food": 2.99
+  },
+  "allergens": [
+   "gluten",
+   "sesame"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "flour-tortillas--bowness-bakery",
+  "ingredient": "flour-tortillas",
+  "name": "Flour Tortillas",
+  "brand": "Bowness Bakery",
+  "tier": "national",
+  "category": "Bakery",
+  "emoji": "🫓",
+  "size": "10 pack",
+  "prices": {
+   "bow-valley": 4.49,
+   "chinook-fresh": 4.79,
+   "foothills-food": 3.99
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "flour-tortillas--market-basics",
+  "ingredient": "flour-tortillas",
+  "name": "Flour Tortillas",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Bakery",
+  "emoji": "🫓",
+  "size": "10 pack",
+  "prices": {
+   "bow-valley": 3.49,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.29
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "foothills-food"
+  ]
+ },
+ {
+  "id": "corn-tortillas--bowness-bakery",
+  "ingredient": "corn-tortillas",
+  "name": "Corn Tortillas",
+  "brand": "Bowness Bakery",
+  "tier": "national",
+  "category": "Bakery",
+  "emoji": "🫓",
+  "size": "30 pack",
+  "prices": {
+   "bow-valley": 3.99,
+   "chinook-fresh": 4.49,
+   "foothills-food": 3.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "corn-tortillas--market-basics",
+  "ingredient": "corn-tortillas",
+  "name": "Corn Tortillas",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Bakery",
+  "emoji": "🫓",
+  "size": "30 pack",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.49,
+   "foothills-food": 3.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "hamburger-buns--bowness-bakery",
+  "ingredient": "hamburger-buns",
+  "name": "Hamburger Buns",
+  "brand": "Bowness Bakery",
+  "tier": "national",
+  "category": "Bakery",
+  "emoji": "🍔",
+  "size": "8 pack",
+  "prices": {
+   "bow-valley": 3.49,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.29
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "hamburger-buns--market-basics",
+  "ingredient": "hamburger-buns",
+  "name": "Hamburger Buns",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Bakery",
+  "emoji": "🍔",
+  "size": "8 pack",
+  "prices": {
+   "bow-valley": 2.79,
+   "chinook-fresh": 2.99,
+   "foothills-food": 2.79
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "croissants--bowness-bakery",
+  "ingredient": "croissants",
+  "name": "Butter Croissants",
+  "brand": "Bowness Bakery",
+  "tier": "national",
+  "category": "Bakery",
+  "emoji": "🥐",
+  "size": "6 pack",
+  "prices": {
+   "bow-valley": 6.29,
+   "chinook-fresh": 6.79,
+   "foothills-food": 5.79
+  },
+  "allergens": [
+   "gluten",
+   "dairy",
+   "egg"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "croissants--market-basics",
+  "ingredient": "croissants",
+  "name": "Butter Croissants",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Bakery",
+  "emoji": "🥐",
+  "size": "6 pack",
+  "prices": {
+   "bow-valley": 4.99,
+   "chinook-fresh": 4.99,
+   "foothills-food": 4.79
+  },
+  "allergens": [
+   "gluten",
+   "dairy",
+   "egg"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "diced-tomatoes--harvest-moon",
+  "ingredient": "diced-tomatoes",
+  "name": "Diced Tomatoes",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "796 mL",
+  "prices": {
+   "bow-valley": 2.79,
+   "chinook-fresh": 2.79,
+   "foothills-food": 2.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "diced-tomatoes--prairie-gold",
+  "ingredient": "diced-tomatoes",
+  "name": "Diced Tomatoes",
+  "brand": "Prairie Gold",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "796 mL",
+  "prices": {
+   "bow-valley": 2.79,
+   "chinook-fresh": 2.99,
+   "foothills-food": 2.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "diced-tomatoes--market-basics",
+  "ingredient": "diced-tomatoes",
+  "name": "Diced Tomatoes",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "796 mL",
+  "prices": {
+   "bow-valley": 1.99,
+   "chinook-fresh": 2.29,
+   "foothills-food": 1.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "crushed-tomatoes--harvest-moon",
+  "ingredient": "crushed-tomatoes",
+  "name": "Crushed Tomatoes",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "796 mL",
+  "prices": {
+   "bow-valley": 2.49,
+   "chinook-fresh": 2.79,
+   "foothills-food": 2.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "crushed-tomatoes--market-basics",
+  "ingredient": "crushed-tomatoes",
+  "name": "Crushed Tomatoes",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "796 mL",
+  "prices": {
+   "bow-valley": 2.29,
+   "chinook-fresh": 2.29,
+   "foothills-food": 1.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "chinook-fresh"
+  ]
+ },
+ {
+  "id": "tomato-paste--harvest-moon",
+  "ingredient": "tomato-paste",
+  "name": "Tomato Paste",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "156 mL",
+  "prices": {
+   "bow-valley": 1.49,
+   "chinook-fresh": 1.49,
+   "foothills-food": 1.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "tomato-paste--market-basics",
+  "ingredient": "tomato-paste",
+  "name": "Tomato Paste",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "156 mL",
+  "prices": {
+   "bow-valley": 1.29,
+   "chinook-fresh": 1.29,
+   "foothills-food": 1.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "chinook-fresh"
+  ]
+ },
+ {
+  "id": "pasta-sauce--harvest-moon",
+  "ingredient": "pasta-sauce",
+  "name": "Marinara Pasta Sauce",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "650 mL",
+  "prices": {
+   "bow-valley": 3.99,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "pasta-sauce--prairie-gold",
+  "ingredient": "pasta-sauce",
+  "name": "Marinara Pasta Sauce",
+  "brand": "Prairie Gold",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "650 mL",
+  "prices": {
+   "bow-valley": 4.49,
+   "chinook-fresh": 4.79,
+   "foothills-food": 4.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "pasta-sauce--market-basics",
+  "ingredient": "pasta-sauce",
+  "name": "Marinara Pasta Sauce",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "650 mL",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.49,
+   "foothills-food": 3.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "kidney-beans--harvest-moon",
+  "ingredient": "kidney-beans",
+  "name": "Red Kidney Beans",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "540 mL",
+  "prices": {
+   "bow-valley": 1.79,
+   "chinook-fresh": 1.99,
+   "foothills-food": 1.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "bow-valley"
+  ]
+ },
+ {
+  "id": "kidney-beans--prairie-gold",
+  "ingredient": "kidney-beans",
+  "name": "Red Kidney Beans",
+  "brand": "Prairie Gold",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "540 mL",
+  "prices": {
+   "bow-valley": 1.99,
+   "chinook-fresh": 2.29,
+   "foothills-food": 1.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "kidney-beans--market-basics",
+  "ingredient": "kidney-beans",
+  "name": "Red Kidney Beans",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "540 mL",
+  "prices": {
+   "bow-valley": 1.49,
+   "chinook-fresh": 1.79,
+   "foothills-food": 1.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "foothills-food"
+  ]
+ },
+ {
+  "id": "black-beans--harvest-moon",
+  "ingredient": "black-beans",
+  "name": "Black Beans",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "540 mL",
+  "prices": {
+   "bow-valley": 1.99,
+   "chinook-fresh": 1.99,
+   "foothills-food": 1.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "black-beans--prairie-gold",
+  "ingredient": "black-beans",
+  "name": "Black Beans",
+  "brand": "Prairie Gold",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "540 mL",
+  "prices": {
+   "bow-valley": 2.29,
+   "chinook-fresh": 2.29,
+   "foothills-food": 1.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "black-beans--market-basics",
+  "ingredient": "black-beans",
+  "name": "Black Beans",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "540 mL",
+  "prices": {
+   "bow-valley": 1.49,
+   "chinook-fresh": 1.79,
+   "foothills-food": 1.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "chickpeas--harvest-moon",
+  "ingredient": "chickpeas",
+  "name": "Chickpeas",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "540 mL",
+  "prices": {
+   "bow-valley": 1.79,
+   "chinook-fresh": 1.99,
+   "foothills-food": 1.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "chickpeas--market-basics",
+  "ingredient": "chickpeas",
+  "name": "Chickpeas",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "540 mL",
+  "prices": {
+   "bow-valley": 1.49,
+   "chinook-fresh": 1.49,
+   "foothills-food": 1.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "pinto-beans--harvest-moon",
+  "ingredient": "pinto-beans",
+  "name": "Pinto Beans",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "540 mL",
+  "prices": {
+   "bow-valley": 1.79,
+   "chinook-fresh": 1.99,
+   "foothills-food": 1.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "pinto-beans--market-basics",
+  "ingredient": "pinto-beans",
+  "name": "Pinto Beans",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🥫",
+  "size": "540 mL",
+  "prices": {
+   "bow-valley": 1.49,
+   "chinook-fresh": 1.79,
+   "foothills-food": 1.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "beef-broth--harvest-moon",
+  "ingredient": "beef-broth",
+  "name": "Beef Broth",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥣",
+  "size": "900 mL",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.49,
+   "foothills-food": 3.29
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "beef-broth--market-basics",
+  "ingredient": "beef-broth",
+  "name": "Beef Broth",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🥣",
+  "size": "900 mL",
+  "prices": {
+   "bow-valley": 2.79,
+   "chinook-fresh": 2.99,
+   "foothills-food": 2.79
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "chicken-broth--harvest-moon",
+  "ingredient": "chicken-broth",
+  "name": "Chicken Broth",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥣",
+  "size": "900 mL",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.29
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": [
+   "foothills-food"
+  ]
+ },
+ {
+  "id": "chicken-broth--market-basics",
+  "ingredient": "chicken-broth",
+  "name": "Chicken Broth",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🥣",
+  "size": "900 mL",
+  "prices": {
+   "bow-valley": 2.79,
+   "chinook-fresh": 2.79,
+   "foothills-food": 2.79
+  },
+  "allergens": [],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "vegetable-broth--harvest-moon",
+  "ingredient": "vegetable-broth",
+  "name": "Vegetable Broth",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥣",
+  "size": "900 mL",
+  "prices": {
+   "bow-valley": 2.99,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "vegetable-broth--market-basics",
+  "ingredient": "vegetable-broth",
+  "name": "Vegetable Broth",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🥣",
+  "size": "900 mL",
+  "prices": {
+   "bow-valley": 2.49,
+   "chinook-fresh": 2.79,
+   "foothills-food": 2.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "canned-corn--harvest-moon",
+  "ingredient": "canned-corn",
+  "name": "Kernel Corn",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🌽",
+  "size": "341 mL",
+  "prices": {
+   "bow-valley": 1.79,
+   "chinook-fresh": 1.79,
+   "foothills-food": 1.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "canned-corn--market-basics",
+  "ingredient": "canned-corn",
+  "name": "Kernel Corn",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🌽",
+  "size": "341 mL",
+  "prices": {
+   "bow-valley": 1.29,
+   "chinook-fresh": 1.29,
+   "foothills-food": 1.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "tuna--northern-catch",
+  "ingredient": "tuna",
+  "name": "Flaked Light Tuna",
+  "brand": "Northern Catch",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🐟",
+  "size": "170 g",
+  "prices": {
+   "bow-valley": 1.99,
+   "chinook-fresh": 2.29,
+   "foothills-food": 1.99
+  },
+  "allergens": [
+   "fish"
+  ],
+  "tags": [
+   "fish"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "tuna--market-basics",
+  "ingredient": "tuna",
+  "name": "Flaked Light Tuna",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🐟",
+  "size": "170 g",
+  "prices": {
+   "bow-valley": 1.79,
+   "chinook-fresh": 1.79,
+   "foothills-food": 1.79
+  },
+  "allergens": [
+   "fish"
+  ],
+  "tags": [
+   "fish"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "chicken-noodle-soup--harvest-moon",
+  "ingredient": "chicken-noodle-soup",
+  "name": "Chicken Noodle Soup",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥣",
+  "size": "540 mL",
+  "prices": {
+   "bow-valley": 2.49,
+   "chinook-fresh": 2.49,
+   "foothills-food": 2.29
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "chicken-noodle-soup--market-basics",
+  "ingredient": "chicken-noodle-soup",
+  "name": "Chicken Noodle Soup",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🥣",
+  "size": "540 mL",
+  "prices": {
+   "bow-valley": 1.99,
+   "chinook-fresh": 1.99,
+   "foothills-food": 1.79
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "spaghetti--harvest-moon",
+  "ingredient": "spaghetti",
+  "name": "Spaghetti",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🍝",
+  "size": "900 g",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.99
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "spaghetti--prairie-gold",
+  "ingredient": "spaghetti",
+  "name": "Spaghetti",
+  "brand": "Prairie Gold",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🍝",
+  "size": "900 g",
+  "prices": {
+   "bow-valley": 3.49,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.29
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "spaghetti--market-basics",
+  "ingredient": "spaghetti",
+  "name": "Spaghetti",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🍝",
+  "size": "900 g",
+  "prices": {
+   "bow-valley": 2.49,
+   "chinook-fresh": 2.49,
+   "foothills-food": 2.29
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "penne--harvest-moon",
+  "ingredient": "penne",
+  "name": "Penne Rigate",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🍝",
+  "size": "900 g",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.99
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "penne--market-basics",
+  "ingredient": "penne",
+  "name": "Penne Rigate",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🍝",
+  "size": "900 g",
+  "prices": {
+   "bow-valley": 2.49,
+   "chinook-fresh": 2.79,
+   "foothills-food": 2.29
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "gluten-free-pasta--harvest-moon",
+  "ingredient": "gluten-free-pasta",
+  "name": "Gluten-Free Rice Penne",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🍝",
+  "size": "340 g",
+  "prices": {
+   "bow-valley": 4.29,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "gluten-free-pasta--market-basics",
+  "ingredient": "gluten-free-pasta",
+  "name": "Gluten-Free Rice Penne",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🍝",
+  "size": "340 g",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.49,
+   "foothills-food": 3.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "rice--harvest-moon",
+  "ingredient": "rice",
+  "name": "Long Grain White Rice",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🍚",
+  "size": "2 kg",
+  "prices": {
+   "bow-valley": 6.29,
+   "chinook-fresh": 6.29,
+   "foothills-food": 5.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "rice--market-basics",
+  "ingredient": "rice",
+  "name": "Long Grain White Rice",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🍚",
+  "size": "2 kg",
+  "prices": {
+   "bow-valley": 4.99,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "bow-valley"
+  ]
+ },
+ {
+  "id": "basmati-rice--harvest-moon",
+  "ingredient": "basmati-rice",
+  "name": "Basmati Rice",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🍚",
+  "size": "2 kg",
+  "prices": {
+   "bow-valley": 8.99,
+   "chinook-fresh": 9.79,
+   "foothills-food": 8.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "basmati-rice--market-basics",
+  "ingredient": "basmati-rice",
+  "name": "Basmati Rice",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🍚",
+  "size": "2 kg",
+  "prices": {
+   "bow-valley": 7.29,
+   "chinook-fresh": 7.79,
+   "foothills-food": 6.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "quinoa--harvest-moon",
+  "ingredient": "quinoa",
+  "name": "White Quinoa",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🍚",
+  "size": "900 g",
+  "prices": {
+   "bow-valley": 8.29,
+   "chinook-fresh": 8.49,
+   "foothills-food": 7.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "quinoa--market-basics",
+  "ingredient": "quinoa",
+  "name": "White Quinoa",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🍚",
+  "size": "900 g",
+  "prices": {
+   "bow-valley": 6.49,
+   "chinook-fresh": 6.99,
+   "foothills-food": 5.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "bow-valley"
+  ]
+ },
+ {
+  "id": "flour--harvest-moon",
+  "ingredient": "flour",
+  "name": "All-Purpose Flour",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🌾",
+  "size": "2.5 kg",
+  "prices": {
+   "bow-valley": 5.49,
+   "chinook-fresh": 5.99,
+   "foothills-food": 5.29
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "flour--market-basics",
+  "ingredient": "flour",
+  "name": "All-Purpose Flour",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🌾",
+  "size": "2.5 kg",
+  "prices": {
+   "bow-valley": 4.49,
+   "chinook-fresh": 4.79,
+   "foothills-food": 4.29
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "bow-valley"
+  ]
+ },
+ {
+  "id": "sugar--harvest-moon",
+  "ingredient": "sugar",
+  "name": "White Sugar",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🧂",
+  "size": "2 kg",
+  "prices": {
+   "bow-valley": 4.29,
+   "chinook-fresh": 4.49,
+   "foothills-food": 3.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "sugar--market-basics",
+  "ingredient": "sugar",
+  "name": "White Sugar",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🧂",
+  "size": "2 kg",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.49,
+   "foothills-food": 2.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "brown-sugar--harvest-moon",
+  "ingredient": "brown-sugar",
+  "name": "Golden Brown Sugar",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🧂",
+  "size": "1 kg",
+  "prices": {
+   "bow-valley": 3.79,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "brown-sugar--market-basics",
+  "ingredient": "brown-sugar",
+  "name": "Golden Brown Sugar",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🧂",
+  "size": "1 kg",
+  "prices": {
+   "bow-valley": 2.99,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "olive-oil--harvest-moon",
+  "ingredient": "olive-oil",
+  "name": "Extra Virgin Olive Oil",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🫒",
+  "size": "1 L",
+  "prices": {
+   "bow-valley": 12.99,
+   "chinook-fresh": 14.49,
+   "foothills-food": 12.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "olive-oil--market-basics",
+  "ingredient": "olive-oil",
+  "name": "Extra Virgin Olive Oil",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🫒",
+  "size": "1 L",
+  "prices": {
+   "bow-valley": 10.79,
+   "chinook-fresh": 11.49,
+   "foothills-food": 9.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "canola-oil--harvest-moon",
+  "ingredient": "canola-oil",
+  "name": "Canola Oil",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🫗",
+  "size": "1.89 L",
+  "prices": {
+   "bow-valley": 7.29,
+   "chinook-fresh": 7.79,
+   "foothills-food": 6.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "canola-oil--market-basics",
+  "ingredient": "canola-oil",
+  "name": "Canola Oil",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🫗",
+  "size": "1.89 L",
+  "prices": {
+   "bow-valley": 5.79,
+   "chinook-fresh": 5.99,
+   "foothills-food": 5.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "vinegar--harvest-moon",
+  "ingredient": "vinegar",
+  "name": "White Vinegar",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🫗",
+  "size": "1 L",
+  "prices": {
+   "bow-valley": 2.79,
+   "chinook-fresh": 2.79,
+   "foothills-food": 2.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "vinegar--market-basics",
+  "ingredient": "vinegar",
+  "name": "White Vinegar",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🫗",
+  "size": "1 L",
+  "prices": {
+   "bow-valley": 2.29,
+   "chinook-fresh": 2.29,
+   "foothills-food": 1.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "peanut-butter--harvest-moon",
+  "ingredient": "peanut-butter",
+  "name": "Smooth Peanut Butter",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥜",
+  "size": "1 kg",
+  "prices": {
+   "bow-valley": 7.29,
+   "chinook-fresh": 7.49,
+   "foothills-food": 6.49
+  },
+  "allergens": [
+   "peanut"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "peanut-butter--prairie-gold",
+  "ingredient": "peanut-butter",
+  "name": "Smooth Peanut Butter",
+  "brand": "Prairie Gold",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥜",
+  "size": "1 kg",
+  "prices": {
+   "bow-valley": 7.79,
+   "chinook-fresh": 8.29,
+   "foothills-food": 7.49
+  },
+  "allergens": [
+   "peanut"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "peanut-butter--market-basics",
+  "ingredient": "peanut-butter",
+  "name": "Smooth Peanut Butter",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🥜",
+  "size": "1 kg",
+  "prices": {
+   "bow-valley": 5.79,
+   "chinook-fresh": 5.99,
+   "foothills-food": 5.49
+  },
+  "allergens": [
+   "peanut"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "almond-butter--harvest-moon",
+  "ingredient": "almond-butter",
+  "name": "Almond Butter",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥜",
+  "size": "500 g",
+  "prices": {
+   "bow-valley": 9.29,
+   "chinook-fresh": 9.99,
+   "foothills-food": 8.79
+  },
+  "allergens": [
+   "tree-nut"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "almond-butter--market-basics",
+  "ingredient": "almond-butter",
+  "name": "Almond Butter",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🥜",
+  "size": "500 g",
+  "prices": {
+   "bow-valley": 7.29,
+   "chinook-fresh": 7.79,
+   "foothills-food": 6.99
+  },
+  "allergens": [
+   "tree-nut"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "sunflower-seed-butter--harvest-moon",
+  "ingredient": "sunflower-seed-butter",
+  "name": "Sunflower Seed Butter",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🌻",
+  "size": "500 g",
+  "prices": {
+   "bow-valley": 7.49,
+   "chinook-fresh": 8.29,
+   "foothills-food": 6.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "sunflower-seed-butter--market-basics",
+  "ingredient": "sunflower-seed-butter",
+  "name": "Sunflower Seed Butter",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🌻",
+  "size": "500 g",
+  "prices": {
+   "bow-valley": 5.99,
+   "chinook-fresh": 6.49,
+   "foothills-food": 5.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "honey--big-sky-farms",
+  "ingredient": "honey",
+  "name": "Liquid Honey",
+  "brand": "Big Sky Farms",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🍯",
+  "size": "500 g",
+  "prices": {
+   "bow-valley": 7.99,
+   "chinook-fresh": 8.79,
+   "foothills-food": 7.79
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "honey--market-basics",
+  "ingredient": "honey",
+  "name": "Liquid Honey",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🍯",
+  "size": "500 g",
+  "prices": {
+   "bow-valley": 6.79,
+   "chinook-fresh": 6.79,
+   "foothills-food": 6.29
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "maple-syrup--harvest-moon",
+  "ingredient": "maple-syrup",
+  "name": "Pure Maple Syrup",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🍁",
+  "size": "540 mL",
+  "prices": {
+   "bow-valley": 10.29,
+   "chinook-fresh": 10.79,
+   "foothills-food": 9.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "maple-syrup--market-basics",
+  "ingredient": "maple-syrup",
+  "name": "Pure Maple Syrup",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🍁",
+  "size": "540 mL",
+  "prices": {
+   "bow-valley": 7.99,
+   "chinook-fresh": 8.99,
+   "foothills-food": 7.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "jam--harvest-moon",
+  "ingredient": "jam",
+  "name": "Strawberry Jam",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🍓",
+  "size": "500 mL",
+  "prices": {
+   "bow-valley": 4.79,
+   "chinook-fresh": 4.99,
+   "foothills-food": 4.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "jam--market-basics",
+  "ingredient": "jam",
+  "name": "Strawberry Jam",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🍓",
+  "size": "500 mL",
+  "prices": {
+   "bow-valley": 3.49,
+   "chinook-fresh": 3.99,
+   "foothills-food": 3.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "salsa--harvest-moon",
+  "ingredient": "salsa",
+  "name": "Medium Salsa",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🌶️",
+  "size": "650 mL",
+  "prices": {
+   "bow-valley": 4.29,
+   "chinook-fresh": 4.49,
+   "foothills-food": 3.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "salsa--market-basics",
+  "ingredient": "salsa",
+  "name": "Medium Salsa",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🌶️",
+  "size": "650 mL",
+  "prices": {
+   "bow-valley": 3.49,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "ketchup--harvest-moon",
+  "ingredient": "ketchup",
+  "name": "Ketchup",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🍅",
+  "size": "1 L",
+  "prices": {
+   "bow-valley": 4.79,
+   "chinook-fresh": 4.79,
+   "foothills-food": 4.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "bow-valley"
+  ]
+ },
+ {
+  "id": "ketchup--market-basics",
+  "ingredient": "ketchup",
+  "name": "Ketchup",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🍅",
+  "size": "1 L",
+  "prices": {
+   "bow-valley": 3.79,
+   "chinook-fresh": 3.99,
+   "foothills-food": 3.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "mustard--harvest-moon",
+  "ingredient": "mustard",
+  "name": "Yellow Mustard",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🌭",
+  "size": "375 mL",
+  "prices": {
+   "bow-valley": 2.49,
+   "chinook-fresh": 2.79,
+   "foothills-food": 2.49
+  },
+  "allergens": [
+   "mustard"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "mustard--market-basics",
+  "ingredient": "mustard",
+  "name": "Yellow Mustard",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🌭",
+  "size": "375 mL",
+  "prices": {
+   "bow-valley": 2.29,
+   "chinook-fresh": 2.29,
+   "foothills-food": 1.99
+  },
+  "allergens": [
+   "mustard"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "mayonnaise--harvest-moon",
+  "ingredient": "mayonnaise",
+  "name": "Real Mayonnaise",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🥚",
+  "size": "890 mL",
+  "prices": {
+   "bow-valley": 6.29,
+   "chinook-fresh": 6.79,
+   "foothills-food": 5.79
+  },
+  "allergens": [
+   "egg"
+  ],
+  "tags": [],
+  "outOfStockAt": [
+   "bow-valley"
+  ]
+ },
+ {
+  "id": "mayonnaise--market-basics",
+  "ingredient": "mayonnaise",
+  "name": "Real Mayonnaise",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🥚",
+  "size": "890 mL",
+  "prices": {
+   "bow-valley": 4.79,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.79
+  },
+  "allergens": [
+   "egg"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "soy-sauce--harvest-moon",
+  "ingredient": "soy-sauce",
+  "name": "Soy Sauce",
+  "brand": "Harvest Moon",
+  "tier": "national",
+  "category": "Pantry",
+  "emoji": "🫗",
+  "size": "500 mL",
+  "prices": {
+   "bow-valley": 3.79,
+   "chinook-fresh": 3.99,
+   "foothills-food": 3.49
+  },
+  "allergens": [
+   "soy",
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "soy-sauce--market-basics",
+  "ingredient": "soy-sauce",
+  "name": "Soy Sauce",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Pantry",
+  "emoji": "🫗",
+  "size": "500 mL",
+  "prices": {
+   "bow-valley": 2.99,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.79
+  },
+  "allergens": [
+   "soy",
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "chili-powder--kananaskis-kitchen",
+  "ingredient": "chili-powder",
+  "name": "Chili Powder",
+  "brand": "Kananaskis Kitchen",
+  "tier": "national",
+  "category": "Spices",
+  "emoji": "🌶️",
+  "size": "70 g",
+  "prices": {
+   "bow-valley": 3.79,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "chili-powder--market-basics",
+  "ingredient": "chili-powder",
+  "name": "Chili Powder",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Spices",
+  "emoji": "🌶️",
+  "size": "70 g",
+  "prices": {
+   "bow-valley": 2.99,
+   "chinook-fresh": 2.99,
+   "foothills-food": 2.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "cumin--kananaskis-kitchen",
+  "ingredient": "cumin",
+  "name": "Ground Cumin",
+  "brand": "Kananaskis Kitchen",
+  "tier": "national",
+  "category": "Spices",
+  "emoji": "🟤",
+  "size": "60 g",
+  "prices": {
+   "bow-valley": 3.99,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "chinook-fresh"
+  ]
+ },
+ {
+  "id": "cumin--market-basics",
+  "ingredient": "cumin",
+  "name": "Ground Cumin",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Spices",
+  "emoji": "🟤",
+  "size": "60 g",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.49,
+   "foothills-food": 2.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "oregano--kananaskis-kitchen",
+  "ingredient": "oregano",
+  "name": "Dried Oregano",
+  "brand": "Kananaskis Kitchen",
+  "tier": "national",
+  "category": "Spices",
+  "emoji": "🌿",
+  "size": "12 g",
+  "prices": {
+   "bow-valley": 2.99,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "oregano--market-basics",
+  "ingredient": "oregano",
+  "name": "Dried Oregano",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Spices",
+  "emoji": "🌿",
+  "size": "12 g",
+  "prices": {
+   "bow-valley": 2.49,
+   "chinook-fresh": 2.79,
+   "foothills-food": 2.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "paprika--kananaskis-kitchen",
+  "ingredient": "paprika",
+  "name": "Smoked Paprika",
+  "brand": "Kananaskis Kitchen",
+  "tier": "national",
+  "category": "Spices",
+  "emoji": "🌶️",
+  "size": "70 g",
+  "prices": {
+   "bow-valley": 3.99,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "paprika--market-basics",
+  "ingredient": "paprika",
+  "name": "Smoked Paprika",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Spices",
+  "emoji": "🌶️",
+  "size": "70 g",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.49,
+   "foothills-food": 3.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "garlic-powder--kananaskis-kitchen",
+  "ingredient": "garlic-powder",
+  "name": "Garlic Powder",
+  "brand": "Kananaskis Kitchen",
+  "tier": "national",
+  "category": "Spices",
+  "emoji": "🧄",
+  "size": "90 g",
+  "prices": {
+   "bow-valley": 3.99,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "garlic-powder--market-basics",
+  "ingredient": "garlic-powder",
+  "name": "Garlic Powder",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Spices",
+  "emoji": "🧄",
+  "size": "90 g",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.49,
+   "foothills-food": 3.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "foothills-food"
+  ]
+ },
+ {
+  "id": "black-pepper--kananaskis-kitchen",
+  "ingredient": "black-pepper",
+  "name": "Ground Black Pepper",
+  "brand": "Kananaskis Kitchen",
+  "tier": "national",
+  "category": "Spices",
+  "emoji": "⚫",
+  "size": "100 g",
+  "prices": {
+   "bow-valley": 4.49,
+   "chinook-fresh": 4.99,
+   "foothills-food": 4.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "black-pepper--market-basics",
+  "ingredient": "black-pepper",
+  "name": "Ground Black Pepper",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Spices",
+  "emoji": "⚫",
+  "size": "100 g",
+  "prices": {
+   "bow-valley": 3.49,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "salt--kananaskis-kitchen",
+  "ingredient": "salt",
+  "name": "Iodized Table Salt",
+  "brand": "Kananaskis Kitchen",
+  "tier": "national",
+  "category": "Spices",
+  "emoji": "🧂",
+  "size": "1 kg",
+  "prices": {
+   "bow-valley": 2.29,
+   "chinook-fresh": 2.29,
+   "foothills-food": 1.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "salt--market-basics",
+  "ingredient": "salt",
+  "name": "Iodized Table Salt",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Spices",
+  "emoji": "🧂",
+  "size": "1 kg",
+  "prices": {
+   "bow-valley": 1.79,
+   "chinook-fresh": 1.79,
+   "foothills-food": 1.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "cinnamon--kananaskis-kitchen",
+  "ingredient": "cinnamon",
+  "name": "Ground Cinnamon",
+  "brand": "Kananaskis Kitchen",
+  "tier": "national",
+  "category": "Spices",
+  "emoji": "🟤",
+  "size": "50 g",
+  "prices": {
+   "bow-valley": 3.79,
+   "chinook-fresh": 3.99,
+   "foothills-food": 3.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "bow-valley",
+   "foothills-food"
+  ]
+ },
+ {
+  "id": "cinnamon--market-basics",
+  "ingredient": "cinnamon",
+  "name": "Ground Cinnamon",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Spices",
+  "emoji": "🟤",
+  "size": "50 g",
+  "prices": {
+   "bow-valley": 2.79,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "cayenne--kananaskis-kitchen",
+  "ingredient": "cayenne",
+  "name": "Cayenne Pepper",
+  "brand": "Kananaskis Kitchen",
+  "tier": "national",
+  "category": "Spices",
+  "emoji": "🌶️",
+  "size": "40 g",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.49,
+   "foothills-food": 3.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "cayenne--market-basics",
+  "ingredient": "cayenne",
+  "name": "Cayenne Pepper",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Spices",
+  "emoji": "🌶️",
+  "size": "40 g",
+  "prices": {
+   "bow-valley": 2.79,
+   "chinook-fresh": 2.99,
+   "foothills-food": 2.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "coffee--aurora-coffee-co",
+  "ingredient": "coffee",
+  "name": "Medium Roast Ground Coffee",
+  "brand": "Aurora Coffee Co.",
+  "tier": "national",
+  "category": "Breakfast",
+  "emoji": "☕",
+  "size": "925 g",
+  "prices": {
+   "bow-valley": 14.79,
+   "chinook-fresh": 16.29,
+   "foothills-food": 13.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "bow-valley"
+  ]
+ },
+ {
+  "id": "coffee--market-basics",
+  "ingredient": "coffee",
+  "name": "Medium Roast Ground Coffee",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Breakfast",
+  "emoji": "☕",
+  "size": "925 g",
+  "prices": {
+   "bow-valley": 12.29,
+   "chinook-fresh": 12.99,
+   "foothills-food": 11.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "tea--aurora-coffee-co",
+  "ingredient": "tea",
+  "name": "Orange Pekoe Tea",
+  "brand": "Aurora Coffee Co.",
+  "tier": "national",
+  "category": "Breakfast",
+  "emoji": "🫖",
+  "size": "72 bags",
+  "prices": {
+   "bow-valley": 4.99,
+   "chinook-fresh": 5.49,
+   "foothills-food": 4.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "tea--market-basics",
+  "ingredient": "tea",
+  "name": "Orange Pekoe Tea",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Breakfast",
+  "emoji": "🫖",
+  "size": "72 bags",
+  "prices": {
+   "bow-valley": 4.29,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "cereal--chinook-mills",
+  "ingredient": "cereal",
+  "name": "Toasted Oat O's",
+  "brand": "Chinook Mills",
+  "tier": "national",
+  "category": "Breakfast",
+  "emoji": "🥣",
+  "size": "425 g",
+  "prices": {
+   "bow-valley": 5.29,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.79
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "cereal--market-basics",
+  "ingredient": "cereal",
+  "name": "Toasted Oat O's",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Breakfast",
+  "emoji": "🥣",
+  "size": "425 g",
+  "prices": {
+   "bow-valley": 4.29,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.99
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "chinook-fresh"
+  ]
+ },
+ {
+  "id": "granola--chinook-mills",
+  "ingredient": "granola",
+  "name": "Maple Almond Granola",
+  "brand": "Chinook Mills",
+  "tier": "national",
+  "category": "Breakfast",
+  "emoji": "🥣",
+  "size": "750 g",
+  "prices": {
+   "bow-valley": 6.29,
+   "chinook-fresh": 6.79,
+   "foothills-food": 5.99
+  },
+  "allergens": [
+   "gluten",
+   "tree-nut"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "granola--market-basics",
+  "ingredient": "granola",
+  "name": "Maple Almond Granola",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Breakfast",
+  "emoji": "🥣",
+  "size": "750 g",
+  "prices": {
+   "bow-valley": 4.79,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.79
+  },
+  "allergens": [
+   "gluten",
+   "tree-nut"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "oats--chinook-mills",
+  "ingredient": "oats",
+  "name": "Large Flake Oats",
+  "brand": "Chinook Mills",
+  "tier": "national",
+  "category": "Breakfast",
+  "emoji": "🌾",
+  "size": "1 kg",
+  "prices": {
+   "bow-valley": 4.49,
+   "chinook-fresh": 4.99,
+   "foothills-food": 4.49
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "oats--market-basics",
+  "ingredient": "oats",
+  "name": "Large Flake Oats",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Breakfast",
+  "emoji": "🌾",
+  "size": "1 kg",
+  "prices": {
+   "bow-valley": 3.79,
+   "chinook-fresh": 3.99,
+   "foothills-food": 3.49
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "pancake-mix--chinook-mills",
+  "ingredient": "pancake-mix",
+  "name": "Buttermilk Pancake Mix",
+  "brand": "Chinook Mills",
+  "tier": "national",
+  "category": "Breakfast",
+  "emoji": "🥞",
+  "size": "905 g",
+  "prices": {
+   "bow-valley": 4.29,
+   "chinook-fresh": 4.49,
+   "foothills-food": 3.79
+  },
+  "allergens": [
+   "gluten",
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "pancake-mix--market-basics",
+  "ingredient": "pancake-mix",
+  "name": "Buttermilk Pancake Mix",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Breakfast",
+  "emoji": "🥞",
+  "size": "905 g",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.29
+  },
+  "allergens": [
+   "gluten",
+   "dairy"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "tortilla-chips--crunch-creek",
+  "ingredient": "tortilla-chips",
+  "name": "Tortilla Chips",
+  "brand": "Crunch Creek",
+  "tier": "national",
+  "category": "Snacks",
+  "emoji": "🌽",
+  "size": "300 g",
+  "prices": {
+   "bow-valley": 4.29,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "tortilla-chips--market-basics",
+  "ingredient": "tortilla-chips",
+  "name": "Tortilla Chips",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Snacks",
+  "emoji": "🌽",
+  "size": "300 g",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.49,
+   "foothills-food": 3.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "potato-chips--crunch-creek",
+  "ingredient": "potato-chips",
+  "name": "Sea Salt Potato Chips",
+  "brand": "Crunch Creek",
+  "tier": "national",
+  "category": "Snacks",
+  "emoji": "🥔",
+  "size": "235 g",
+  "prices": {
+   "bow-valley": 3.99,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "potato-chips--market-basics",
+  "ingredient": "potato-chips",
+  "name": "Sea Salt Potato Chips",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Snacks",
+  "emoji": "🥔",
+  "size": "235 g",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.79,
+   "foothills-food": 2.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "crackers--crunch-creek",
+  "ingredient": "crackers",
+  "name": "Wheat Crackers",
+  "brand": "Crunch Creek",
+  "tier": "national",
+  "category": "Snacks",
+  "emoji": "🍘",
+  "size": "200 g",
+  "prices": {
+   "bow-valley": 3.49,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.49
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "crackers--market-basics",
+  "ingredient": "crackers",
+  "name": "Wheat Crackers",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Snacks",
+  "emoji": "🍘",
+  "size": "200 g",
+  "prices": {
+   "bow-valley": 2.79,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.79
+  },
+  "allergens": [
+   "gluten"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "granola-bars--chinook-mills",
+  "ingredient": "granola-bars",
+  "name": "Peanut Butter Granola Bars",
+  "brand": "Chinook Mills",
+  "tier": "national",
+  "category": "Snacks",
+  "emoji": "🍫",
+  "size": "6 bars",
+  "prices": {
+   "bow-valley": 3.99,
+   "chinook-fresh": 4.49,
+   "foothills-food": 3.79
+  },
+  "allergens": [
+   "peanut",
+   "gluten"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "granola-bars--market-basics",
+  "ingredient": "granola-bars",
+  "name": "Peanut Butter Granola Bars",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Snacks",
+  "emoji": "🍫",
+  "size": "6 bars",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.49,
+   "foothills-food": 3.29
+  },
+  "allergens": [
+   "peanut",
+   "gluten"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "trail-mix--crunch-creek",
+  "ingredient": "trail-mix",
+  "name": "Classic Trail Mix",
+  "brand": "Crunch Creek",
+  "tier": "national",
+  "category": "Snacks",
+  "emoji": "🥜",
+  "size": "600 g",
+  "prices": {
+   "bow-valley": 8.99,
+   "chinook-fresh": 9.99,
+   "foothills-food": 8.29
+  },
+  "allergens": [
+   "peanut",
+   "tree-nut"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "trail-mix--market-basics",
+  "ingredient": "trail-mix",
+  "name": "Classic Trail Mix",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Snacks",
+  "emoji": "🥜",
+  "size": "600 g",
+  "prices": {
+   "bow-valley": 7.29,
+   "chinook-fresh": 7.49,
+   "foothills-food": 6.79
+  },
+  "allergens": [
+   "peanut",
+   "tree-nut"
+  ],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "frozen-peas--glacier-fresh",
+  "ingredient": "frozen-peas",
+  "name": "Frozen Green Peas",
+  "brand": "Glacier Fresh",
+  "tier": "national",
+  "category": "Frozen",
+  "emoji": "🟢",
+  "size": "750 g",
+  "prices": {
+   "bow-valley": 2.99,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.99
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "frozen-peas--market-basics",
+  "ingredient": "frozen-peas",
+  "name": "Frozen Green Peas",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Frozen",
+  "emoji": "🟢",
+  "size": "750 g",
+  "prices": {
+   "bow-valley": 2.49,
+   "chinook-fresh": 2.79,
+   "foothills-food": 2.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "frozen-mixed-veg--glacier-fresh",
+  "ingredient": "frozen-mixed-veg",
+  "name": "Frozen Mixed Vegetables",
+  "brand": "Glacier Fresh",
+  "tier": "national",
+  "category": "Frozen",
+  "emoji": "🥕",
+  "size": "1 kg",
+  "prices": {
+   "bow-valley": 3.49,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.29
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": [
+   "foothills-food"
+  ]
+ },
+ {
+  "id": "frozen-mixed-veg--market-basics",
+  "ingredient": "frozen-mixed-veg",
+  "name": "Frozen Mixed Vegetables",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Frozen",
+  "emoji": "🥕",
+  "size": "1 kg",
+  "prices": {
+   "bow-valley": 2.99,
+   "chinook-fresh": 2.99,
+   "foothills-food": 2.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "frozen-berries--glacier-fresh",
+  "ingredient": "frozen-berries",
+  "name": "Frozen Mixed Berries",
+  "brand": "Glacier Fresh",
+  "tier": "national",
+  "category": "Frozen",
+  "emoji": "🫐",
+  "size": "600 g",
+  "prices": {
+   "bow-valley": 5.99,
+   "chinook-fresh": 6.49,
+   "foothills-food": 5.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "frozen-berries--market-basics",
+  "ingredient": "frozen-berries",
+  "name": "Frozen Mixed Berries",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Frozen",
+  "emoji": "🫐",
+  "size": "600 g",
+  "prices": {
+   "bow-valley": 4.99,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "frozen-pizza--glacier-fresh",
+  "ingredient": "frozen-pizza",
+  "name": "Pepperoni Pizza",
+  "brand": "Glacier Fresh",
+  "tier": "national",
+  "category": "Frozen",
+  "emoji": "🍕",
+  "size": "about 900 g",
+  "prices": {
+   "bow-valley": 8.29,
+   "chinook-fresh": 8.49,
+   "foothills-food": 7.79
+  },
+  "allergens": [
+   "gluten",
+   "dairy"
+  ],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "frozen-pizza--market-basics",
+  "ingredient": "frozen-pizza",
+  "name": "Pepperoni Pizza",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Frozen",
+  "emoji": "🍕",
+  "size": "about 900 g",
+  "prices": {
+   "bow-valley": 6.49,
+   "chinook-fresh": 6.79,
+   "foothills-food": 6.29
+  },
+  "allergens": [
+   "gluten",
+   "dairy"
+  ],
+  "tags": [
+   "meat"
+  ],
+  "outOfStockAt": [
+   "bow-valley"
+  ]
+ },
+ {
+  "id": "ice-cream--wild-rose-dairy",
+  "ingredient": "ice-cream",
+  "name": "Vanilla Ice Cream",
+  "brand": "Wild Rose Dairy",
+  "tier": "national",
+  "category": "Frozen",
+  "emoji": "🍨",
+  "size": "1.5 L",
+  "prices": {
+   "bow-valley": 6.29,
+   "chinook-fresh": 6.29,
+   "foothills-food": 5.99
+  },
+  "allergens": [
+   "dairy",
+   "egg"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "ice-cream--market-basics",
+  "ingredient": "ice-cream",
+  "name": "Vanilla Ice Cream",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Frozen",
+  "emoji": "🍨",
+  "size": "1.5 L",
+  "prices": {
+   "bow-valley": 4.79,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.79
+  },
+  "allergens": [
+   "dairy",
+   "egg"
+  ],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "orange-juice--sunny-slope",
+  "ingredient": "orange-juice",
+  "name": "Orange Juice, No Pulp",
+  "brand": "Sunny Slope",
+  "tier": "national",
+  "category": "Beverages",
+  "emoji": "🧃",
+  "size": "1.54 L",
+  "prices": {
+   "bow-valley": 4.79,
+   "chinook-fresh": 4.99,
+   "foothills-food": 4.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "orange-juice--market-basics",
+  "ingredient": "orange-juice",
+  "name": "Orange Juice, No Pulp",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Beverages",
+  "emoji": "🧃",
+  "size": "1.54 L",
+  "prices": {
+   "bow-valley": 3.79,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "apple-juice--sunny-slope",
+  "ingredient": "apple-juice",
+  "name": "Apple Juice",
+  "brand": "Sunny Slope",
+  "tier": "national",
+  "category": "Beverages",
+  "emoji": "🧃",
+  "size": "1.89 L",
+  "prices": {
+   "bow-valley": 3.49,
+   "chinook-fresh": 3.99,
+   "foothills-food": 3.49
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "apple-juice--market-basics",
+  "ingredient": "apple-juice",
+  "name": "Apple Juice",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Beverages",
+  "emoji": "🧃",
+  "size": "1.89 L",
+  "prices": {
+   "bow-valley": 2.99,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "sparkling-water--glacier-springs",
+  "ingredient": "sparkling-water",
+  "name": "Lime Sparkling Water",
+  "brand": "Glacier Springs",
+  "tier": "national",
+  "category": "Beverages",
+  "emoji": "🫧",
+  "size": "12 x 355 mL",
+  "prices": {
+   "bow-valley": 5.99,
+   "chinook-fresh": 6.29,
+   "foothills-food": 5.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "sparkling-water--market-basics",
+  "ingredient": "sparkling-water",
+  "name": "Lime Sparkling Water",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Beverages",
+  "emoji": "🫧",
+  "size": "12 x 355 mL",
+  "prices": {
+   "bow-valley": 4.79,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.79
+  },
+  "allergens": [],
+  "tags": [
+   "vegan"
+  ],
+  "outOfStockAt": []
+ },
+ {
+  "id": "toilet-paper--northern-home",
+  "ingredient": "toilet-paper",
+  "name": "Toilet Paper",
+  "brand": "Northern Home",
+  "tier": "national",
+  "category": "Household",
+  "emoji": "🧻",
+  "size": "12 double rolls",
+  "prices": {
+   "bow-valley": 9.99,
+   "chinook-fresh": 11.29,
+   "foothills-food": 9.79
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "toilet-paper--market-basics",
+  "ingredient": "toilet-paper",
+  "name": "Toilet Paper",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Household",
+  "emoji": "🧻",
+  "size": "12 double rolls",
+  "prices": {
+   "bow-valley": 8.29,
+   "chinook-fresh": 8.49,
+   "foothills-food": 7.79
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "paper-towels--northern-home",
+  "ingredient": "paper-towels",
+  "name": "Paper Towels",
+  "brand": "Northern Home",
+  "tier": "national",
+  "category": "Household",
+  "emoji": "🧻",
+  "size": "6 rolls",
+  "prices": {
+   "bow-valley": 8.79,
+   "chinook-fresh": 9.49,
+   "foothills-food": 8.49
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": [
+   "bow-valley"
+  ]
+ },
+ {
+  "id": "paper-towels--market-basics",
+  "ingredient": "paper-towels",
+  "name": "Paper Towels",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Household",
+  "emoji": "🧻",
+  "size": "6 rolls",
+  "prices": {
+   "bow-valley": 7.29,
+   "chinook-fresh": 7.49,
+   "foothills-food": 6.79
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "dish-soap--northern-home",
+  "ingredient": "dish-soap",
+  "name": "Dish Soap",
+  "brand": "Northern Home",
+  "tier": "national",
+  "category": "Household",
+  "emoji": "🧴",
+  "size": "740 mL",
+  "prices": {
+   "bow-valley": 3.99,
+   "chinook-fresh": 4.29,
+   "foothills-food": 3.99
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "dish-soap--market-basics",
+  "ingredient": "dish-soap",
+  "name": "Dish Soap",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Household",
+  "emoji": "🧴",
+  "size": "740 mL",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.79,
+   "foothills-food": 3.29
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "dishwasher-pods--northern-home",
+  "ingredient": "dishwasher-pods",
+  "name": "Dishwasher Pods",
+  "brand": "Northern Home",
+  "tier": "national",
+  "category": "Household",
+  "emoji": "🫧",
+  "size": "40 pack",
+  "prices": {
+   "bow-valley": 13.49,
+   "chinook-fresh": 13.79,
+   "foothills-food": 12.29
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "dishwasher-pods--market-basics",
+  "ingredient": "dishwasher-pods",
+  "name": "Dishwasher Pods",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Household",
+  "emoji": "🫧",
+  "size": "40 pack",
+  "prices": {
+   "bow-valley": 10.29,
+   "chinook-fresh": 11.29,
+   "foothills-food": 9.79
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "laundry-detergent--northern-home",
+  "ingredient": "laundry-detergent",
+  "name": "Laundry Detergent",
+  "brand": "Northern Home",
+  "tier": "national",
+  "category": "Household",
+  "emoji": "🧺",
+  "size": "2.03 L",
+  "prices": {
+   "bow-valley": 12.79,
+   "chinook-fresh": 14.29,
+   "foothills-food": 12.29
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "laundry-detergent--market-basics",
+  "ingredient": "laundry-detergent",
+  "name": "Laundry Detergent",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Household",
+  "emoji": "🧺",
+  "size": "2.03 L",
+  "prices": {
+   "bow-valley": 10.29,
+   "chinook-fresh": 10.99,
+   "foothills-food": 9.99
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "garbage-bags--northern-home",
+  "ingredient": "garbage-bags",
+  "name": "Kitchen Garbage Bags",
+  "brand": "Northern Home",
+  "tier": "national",
+  "category": "Household",
+  "emoji": "🗑️",
+  "size": "40 pack",
+  "prices": {
+   "bow-valley": 8.49,
+   "chinook-fresh": 9.29,
+   "foothills-food": 8.29
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "garbage-bags--market-basics",
+  "ingredient": "garbage-bags",
+  "name": "Kitchen Garbage Bags",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Household",
+  "emoji": "🗑️",
+  "size": "40 pack",
+  "prices": {
+   "bow-valley": 6.79,
+   "chinook-fresh": 7.29,
+   "foothills-food": 6.49
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "toothpaste--clearwater",
+  "ingredient": "toothpaste",
+  "name": "Fluoride Toothpaste",
+  "brand": "Clearwater",
+  "tier": "national",
+  "category": "Personal Care",
+  "emoji": "🪥",
+  "size": "130 mL",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.99
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "toothpaste--market-basics",
+  "ingredient": "toothpaste",
+  "name": "Fluoride Toothpaste",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Personal Care",
+  "emoji": "🪥",
+  "size": "130 mL",
+  "prices": {
+   "bow-valley": 2.49,
+   "chinook-fresh": 2.79,
+   "foothills-food": 2.29
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "shampoo--clearwater",
+  "ingredient": "shampoo",
+  "name": "Everyday Shampoo",
+  "brand": "Clearwater",
+  "tier": "national",
+  "category": "Personal Care",
+  "emoji": "🧴",
+  "size": "750 mL",
+  "prices": {
+   "bow-valley": 5.99,
+   "chinook-fresh": 6.49,
+   "foothills-food": 5.99
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "shampoo--market-basics",
+  "ingredient": "shampoo",
+  "name": "Everyday Shampoo",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Personal Care",
+  "emoji": "🧴",
+  "size": "750 mL",
+  "prices": {
+   "bow-valley": 4.99,
+   "chinook-fresh": 5.29,
+   "foothills-food": 4.79
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "hand-soap--clearwater",
+  "ingredient": "hand-soap",
+  "name": "Hand Soap",
+  "brand": "Clearwater",
+  "tier": "national",
+  "category": "Personal Care",
+  "emoji": "🧼",
+  "size": "354 mL",
+  "prices": {
+   "bow-valley": 3.29,
+   "chinook-fresh": 3.29,
+   "foothills-food": 2.99
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ },
+ {
+  "id": "hand-soap--market-basics",
+  "ingredient": "hand-soap",
+  "name": "Hand Soap",
+  "brand": "Market Basics",
+  "tier": "store",
+  "category": "Personal Care",
+  "emoji": "🧼",
+  "size": "354 mL",
+  "prices": {
+   "bow-valley": 2.49,
+   "chinook-fresh": 2.79,
+   "foothills-food": 2.49
+  },
+  "allergens": [],
+  "tags": [],
+  "outOfStockAt": []
+ }
+]
