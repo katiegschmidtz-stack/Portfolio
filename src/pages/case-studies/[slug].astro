@@ -1,0 +1,261 @@
+---
+// Turns each Markdown file in src/content/case-studies into its own page.
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('caseStudies', ({ data }) => !data.draft);
+  return entries.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { title, summary, role, timeframe, tags } = entry.data;
+const { Content, headings } = await render(entry);
+const sections = headings.filter((h) => h.depth === 2);
+---
+
+<BaseLayout title={`${title} case study`} description={summary}>
+  <article>
+    <header class="cs-hero on-dark">
+      <div class="wrap">
+        <nav class="crumbs" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li><a href="/case-studies">Case studies</a></li>
+            <li><span aria-current="page">{title}</span></li>
+          </ol>
+        </nav>
+        <p class="eyebrow">Case study</p>
+        <h1>{title}</h1>
+        <p class="summary">{summary}</p>
+        <dl class="facts">
+          <div>
+            <dt>My role</dt>
+            <dd>{role}</dd>
+          </div>
+          <div>
+            <dt>Timeframe</dt>
+            <dd>{timeframe}</dd>
+          </div>
+          {
+            tags.length > 0 && (
+              <div>
+                <dt>Focus</dt>
+                <dd>{tags.join(' · ')}</dd>
+              </div>
+            )
+          }
+        </dl>
+      </div>
+    </header>
+
+    <div class="wrap cs-body">
+      {
+        sections.length > 1 && (
+          <nav class="toc" aria-labelledby="toc-title">
+            <h2 id="toc-title">On this page</h2>
+            <ol>
+              {sections.map((h) => (
+                <li>
+                  <a href={`#${h.slug}`}>{h.text}</a>
+                </li>
+              ))}
+            </ol>
+          </nav>
+        )
+      }
+      <div class="prose">
+        <Content />
+      </div>
+    </div>
+
+    <div class="wrap back">
+      <a class="btn" href="/#work">← Back to all work</a>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .cs-hero {
+    background: var(--violet);
+    color: #fff;
+    border-bottom: var(--border);
+    padding-block: 2rem clamp(3rem, 7vw, 5rem);
+  }
+
+  .crumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2.5rem;
+    font-size: 0.9375rem;
+  }
+
+  .crumbs li:not(:last-child)::after {
+    content: '/';
+    margin-left: 0.5rem;
+    color: var(--lilac);
+  }
+
+  .crumbs a {
+    color: #fff;
+  }
+
+  .crumbs [aria-current] {
+    color: var(--lilac);
+  }
+
+  .eyebrow {
+    color: var(--sun);
+  }
+
+  h1 {
+    font-size: clamp(2.75rem, 8vw, 5rem);
+  }
+
+  .summary {
+    font-size: clamp(1.125rem, 2.3vw, 1.4rem);
+    max-width: 44rem;
+  }
+
+  .facts {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+    margin: 2rem 0 0;
+    padding: 1.25rem 1.5rem;
+    background: var(--surface);
+    color: var(--ink);
+    border: var(--border);
+    border-radius: var(--radius);
+    box-shadow: 6px 6px 0 var(--sun);
+  }
+
+  .facts dt {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--violet);
+  }
+
+  .facts dd {
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .cs-body {
+    display: grid;
+    gap: 2.5rem;
+    padding-block: clamp(3rem, 7vw, 5rem) 2rem;
+  }
+
+  .toc {
+    align-self: start;
+    padding: 1.25rem 1.5rem;
+    background: var(--sun);
+    border: var(--border);
+    border-radius: var(--radius);
+  }
+
+  .toc h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .toc ol {
+    margin: 0;
+    padding-left: 1.25rem;
+  }
+
+  .toc a {
+    color: var(--ink);
+    display: inline-block;
+    padding-block: 0.2rem;
+  }
+
+  @media (min-width: 60rem) {
+    .cs-body {
+      grid-template-columns: 15rem 1fr;
+      gap: 4rem;
+    }
+    .toc {
+      position: sticky;
+      top: 1.5rem;
+    }
+  }
+
+  /* Styles for the Markdown content */
+  .prose {
+    max-width: 44rem;
+  }
+
+  .prose :global(h2) {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    margin-top: 3.5rem;
+    padding-top: 0.25rem;
+  }
+
+  .prose :global(h2:first-child) {
+    margin-top: 0;
+  }
+
+  .prose :global(h2)::before {
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 0.4rem;
+    border-radius: 999px;
+    background: var(--coral);
+    margin-bottom: 1rem;
+  }
+
+  .prose :global(h3) {
+    font-size: 1.375rem;
+    margin-top: 2rem;
+  }
+
+  .prose :global(ul),
+  .prose :global(ol) {
+    padding-left: 1.4rem;
+  }
+
+  .prose :global(li) {
+    margin-bottom: 0.4rem;
+  }
+
+  .prose :global(img) {
+    border: var(--border);
+    border-radius: var(--radius-sm);
+    margin-block: 1.5rem;
+  }
+
+  /* Blockquotes are used for clearly marked placeholder text. */
+  .prose :global(blockquote) {
+    margin: 1.25rem 0;
+    padding: 1.25rem 1.5rem;
+    background: var(--violet-tint);
+    border: 2px dashed var(--violet);
+    border-radius: var(--radius-sm);
+  }
+
+  .prose :global(blockquote > :last-child) {
+    margin-bottom: 0;
+  }
+
+  .prose :global(blockquote strong:first-child) {
+    display: inline-block;
+    background: var(--violet);
+    color: #fff;
+    padding: 0 0.5rem;
+    border-radius: 0.3rem;
+    margin-right: 0.25rem;
+  }
+
+  .back {
+    padding-bottom: var(--section);
+  }
+</style>

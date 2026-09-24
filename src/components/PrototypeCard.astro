@@ -1,0 +1,143 @@
+---
+import type { Prototype } from '../data/site';
+
+interface Props {
+  item: Prototype;
+  headingLevel?: 'h3' | 'h4';
+}
+
+const { item, headingLevel: Heading = 'h3' } = Astro.props;
+const Wrapper = item.href ? 'a' : 'article';
+---
+
+<Wrapper
+  class:list={['proto', `proto-${item.color}`, { 'card-link': item.href }]}
+  href={item.href}
+>
+  <div class="art" aria-hidden="true">
+    <span class="shape one"></span>
+    <span class="shape two"></span>
+    <span class="shape three"></span>
+  </div>
+  <div class="body">
+    <p class="status">{item.status}</p>
+    <Heading class="title">{item.title}</Heading>
+    <p class="desc">{item.description}</p>
+    <ul class="tags" aria-label="Topics">
+      {item.tags.map((tag) => <li>{tag}</li>)}
+    </ul>
+  </div>
+</Wrapper>
+
+<style>
+  .proto {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: var(--surface);
+    color: var(--ink);
+    border: var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    text-decoration: none;
+  }
+
+  .card-link {
+    transition:
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
+  }
+
+  .card-link:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 9px 9px 0 var(--ink);
+  }
+
+  .art {
+    position: relative;
+    height: 9rem;
+    border-bottom: var(--border);
+    overflow: hidden;
+  }
+
+  .proto-violet .art {
+    background: var(--violet-tint);
+  }
+  .proto-coral .art {
+    background: var(--coral-tint);
+  }
+  .proto-teal .art {
+    background: var(--teal-tint);
+  }
+
+  .shape {
+    position: absolute;
+    border: var(--border);
+  }
+
+  .one {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    left: 1.25rem;
+    top: 1.5rem;
+  }
+  .two {
+    width: 6rem;
+    height: 3.25rem;
+    border-radius: 999px;
+    right: 1.5rem;
+    top: 1.25rem;
+    background: var(--sun);
+  }
+  .three {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.9rem;
+    right: 4.5rem;
+    bottom: -1.25rem;
+    transform: rotate(14deg);
+    background: var(--surface);
+  }
+
+  .proto-violet .one {
+    background: var(--violet);
+  }
+  .proto-coral .one {
+    background: var(--coral);
+  }
+  .proto-teal .one {
+    background: var(--teal);
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1.5rem;
+  }
+
+  .status {
+    align-self: flex-start;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.8125rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: var(--ink);
+    color: var(--sun);
+    padding: 0.25rem 0.7rem;
+    border-radius: 999px;
+    margin-bottom: 1rem;
+  }
+
+  .title {
+    font-size: 1.375rem;
+  }
+
+  .desc {
+    color: var(--muted);
+    flex: 1;
+  }
+</style>

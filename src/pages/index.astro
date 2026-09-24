@@ -1,0 +1,437 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CaseStudyCard from '../components/CaseStudyCard.astro';
+import PrototypeCard from '../components/PrototypeCard.astro';
+import { site, prototypes } from '../data/site';
+
+const caseStudies = (await getCollection('caseStudies', ({ data }) => !data.draft)).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+const featured = caseStudies.find((c) => c.data.featured) ?? caseStudies[0];
+const others = caseStudies.filter((c) => c !== featured);
+
+const focusAreas = ['Consumer ecommerce', 'B2B commerce', 'Enterprise AI'];
+---
+
+<BaseLayout>
+  <!-- Hero -->
+  <section class="hero on-dark" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow hero-eyebrow">Product Lead · Staff & Principal PM</p>
+        <h1 id="hero-title">
+          Product leader who <span class="highlight">builds.</span>
+        </h1>
+        <p class="hero-sub">
+          I turn AI and commerce ideas into working products, keeping human judgment at the core.
+        </p>
+        <p class="hero-support">10+ years across consumer ecommerce, B2B commerce and enterprise AI.</p>
+        <div class="hero-actions">
+          <a class="btn btn-sun" href="#work">See my work</a>
+          <a class="btn" href={site.resume} download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+              <path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            Download resume <span class="visually-hidden">(PDF)</span>
+          </a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <span class="h-sun"></span>
+        <span class="h-card c1"><span></span><span></span><span></span></span>
+        <span class="h-card c2"><span></span><span></span></span>
+        <span class="h-pill"></span>
+        <span class="h-dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Focus areas strip -->
+  <div class="strip">
+    <ul class="wrap strip-list" aria-label="Focus areas">
+      {focusAreas.map((area) => <li>{area}</li>)}
+    </ul>
+  </div>
+
+  <!-- Featured case study -->
+  <section id="work" class="section" aria-labelledby="work-title">
+    <div class="wrap">
+      <p class="eyebrow accent-coral">Work</p>
+      <h2 id="work-title" class="section-title">Case studies</h2>
+      <p class="lead">How I find the real problem, make the hard calls and ship.</p>
+      <div class="stack">
+        {featured && <CaseStudyCard entry={featured} featured />}
+        {
+          others.length > 0 && (
+            <div class="grid">
+              {others.map((entry) => (
+                <CaseStudyCard entry={entry} />
+              ))}
+            </div>
+          )
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Prototypes -->
+  <section id="prototypes" class="section prototypes" aria-labelledby="proto-title">
+    <div class="wrap">
+      <p class="eyebrow accent-teal">Prototypes</p>
+      <h2 id="proto-title" class="section-title">Things I'm building</h2>
+      <p class="lead">Hands-on projects where I take an idea from sketch to working product.</p>
+      <ul class="grid proto-grid" role="list">
+        {
+          prototypes.map((item) => (
+            <li>
+              <PrototypeCard item={item} />
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section class="resume-band" aria-labelledby="resume-title">
+    <div class="wrap resume-inner">
+      <div>
+        <h2 id="resume-title">Want the full picture?</h2>
+        <p>My experience, roles and skills, all on one page.</p>
+      </div>
+      <a class="btn btn-violet" href={site.resume} download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+          <path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        Download resume <span class="visually-hidden">(PDF)</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact on-dark" aria-labelledby="contact-title">
+    <div class="wrap">
+      <p class="eyebrow contact-eyebrow">Contact</p>
+      <h2 id="contact-title" class="section-title">Let's talk.</h2>
+      <p class="contact-lead">
+        Hiring for a Product Lead, Staff, Principal or Senior PM role? I'd love to hear about it.
+      </p>
+      <ul class="contact-links" role="list">
+        <li>
+          <a class="btn btn-sun" href={`mailto:${site.email}`}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+              <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+              <path d="m3 7 9 6 9-6" stroke-linejoin="round"></path>
+            </svg>
+            <span><span class="visually-hidden">Email: </span>{site.email}</span>
+          </a>
+        </li>
+        <li>
+          <a class="btn" href={site.linkedin} rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11H3v-11Zm6.5 0h3.8v1.6h.06c.53-1 1.84-2.06 3.8-2.06 4.06 0 4.81 2.6 4.81 6v5.46h-4v-4.84c0-1.16-.02-2.64-1.62-2.64-1.62 0-1.86 1.26-1.86 2.56v4.92h-4V9.75Z"></path>
+            </svg>
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* ── Hero ── */
+  .hero {
+    background: var(--violet);
+    color: #fff;
+    border-bottom: var(--border);
+    overflow: hidden;
+  }
+
+  .hero-grid {
+    display: grid;
+    gap: 2.5rem;
+    padding-block: clamp(3.5rem, 9vw, 7rem);
+    align-items: center;
+  }
+
+  .hero-eyebrow {
+    color: var(--sun);
+  }
+
+  h1 {
+    font-size: clamp(2.75rem, 8.5vw, 5.75rem);
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    margin-bottom: 1.5rem;
+  }
+
+  .highlight {
+    display: inline-block;
+    color: var(--ink);
+    background: var(--sun);
+    padding: 0 0.2em 0.05em;
+    border-radius: 0.2em;
+    border: 3px solid var(--ink);
+    box-shadow: 0.08em 0.08em 0 var(--coral);
+    transform: rotate(-2deg);
+  }
+
+  .hero-sub {
+    font-size: clamp(1.25rem, 2.6vw, 1.625rem);
+    line-height: 1.45;
+    font-weight: 500;
+    max-width: 36rem;
+  }
+
+  .hero-support {
+    color: var(--lilac);
+    font-size: 1.125rem;
+    max-width: 36rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .hero-art {
+    position: relative;
+    height: 18rem;
+    display: none;
+  }
+
+  .hero-art span {
+    position: absolute;
+    border: var(--border);
+  }
+
+  .h-sun {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    background: var(--sun);
+    right: 0;
+    top: 0;
+  }
+
+  .h-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 1.1rem;
+    background: var(--surface);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+
+  .h-card span {
+    position: static !important;
+    height: 0.8rem;
+    border-radius: 999px;
+    border: 0 !important;
+    background: var(--lilac);
+  }
+
+  .c1 {
+    width: 15rem;
+    left: 0;
+    top: 3.5rem;
+    transform: rotate(-4deg);
+  }
+  .c1 span:nth-child(1) {
+    width: 70%;
+    background: var(--violet) !important;
+  }
+  .c1 span:nth-child(2) {
+    width: 90%;
+  }
+  .c1 span:nth-child(3) {
+    width: 55%;
+  }
+
+  .c2 {
+    width: 11rem;
+    right: 1rem;
+    bottom: 0;
+    transform: rotate(5deg);
+    background: var(--teal-tint) !important;
+  }
+  .c2 span:nth-child(1) {
+    width: 80%;
+    background: var(--teal) !important;
+  }
+  .c2 span:nth-child(2) {
+    width: 60%;
+    background: var(--surface) !important;
+  }
+
+  .h-pill {
+    width: 7rem;
+    height: 3rem;
+    border-radius: 999px;
+    background: var(--coral);
+    left: 3rem;
+    bottom: 0.5rem;
+  }
+
+  .h-dot {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: var(--ink);
+    left: 45%;
+    top: 0.5rem;
+  }
+
+  @media (min-width: 56rem) {
+    .hero-grid {
+      grid-template-columns: 1.5fr 1fr;
+    }
+    .hero-art {
+      display: block;
+      height: 24rem;
+    }
+    .h-sun {
+      width: 16rem;
+      height: 16rem;
+    }
+  }
+
+  /* ── Focus-area strip ── */
+  .strip {
+    background: var(--sun);
+    border-bottom: var(--border);
+  }
+
+  .strip-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 2.5rem;
+    list-style: none;
+    margin: 0 auto;
+    padding-block: 1rem;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(1rem, 2.2vw, 1.25rem);
+  }
+
+  .strip-list li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .strip-list li::before {
+    content: '';
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background: var(--coral);
+    border: 2px solid var(--ink);
+  }
+
+  /* ── Sections ── */
+  .accent-coral {
+    color: var(--coral-deep);
+  }
+
+  .accent-teal {
+    color: var(--teal);
+  }
+
+  .stack {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2.5rem;
+  }
+
+  .grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr));
+  }
+
+  .prototypes {
+    background: var(--surface);
+    border-block: var(--border);
+  }
+
+  .proto-grid {
+    list-style: none;
+    padding: 0;
+    margin: 2.5rem 0 0;
+  }
+
+  /* ── Resume band ── */
+  .resume-band {
+    background: var(--coral-tint);
+    border-bottom: var(--border);
+    padding-block: clamp(2.5rem, 6vw, 4rem);
+  }
+
+  .resume-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .resume-inner h2 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+  }
+
+  .resume-inner p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 1.125rem;
+  }
+
+  /* ── Contact ── */
+  .contact {
+    background: var(--ink);
+    color: #fff;
+  }
+
+  .contact-eyebrow {
+    color: var(--sun);
+  }
+
+  .contact .section-title {
+    font-size: clamp(2.75rem, 8vw, 5rem);
+  }
+
+  .contact-lead {
+    color: var(--lilac);
+    font-size: clamp(1.125rem, 2vw, 1.3rem);
+    max-width: 38rem;
+  }
+
+  .contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0;
+  }
+
+  .contact .btn {
+    box-shadow: 4px 4px 0 var(--coral);
+    border-color: var(--ink);
+    overflow-wrap: anywhere;
+  }
+
+  .contact .btn:hover {
+    box-shadow: 6px 6px 0 var(--coral);
+  }
+
+  .contact .btn:active {
+    box-shadow: 1px 1px 0 var(--coral);
+  }
+</style>

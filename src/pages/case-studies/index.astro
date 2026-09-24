@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CaseStudyCard from '../../components/CaseStudyCard.astro';
+
+const caseStudies = (await getCollection('caseStudies', ({ data }) => !data.draft)).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+---
+
+<BaseLayout title="Case studies" description="Product case studies across AI and commerce.">
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Work</p>
+      <h1 class="section-title">Case studies</h1>
+      <p class="lead">How I find the real problem, make the hard calls and ship.</p>
+      <ul class="grid" role="list">
+        {
+          caseStudies.map((entry) => (
+            <li>
+              <CaseStudyCard entry={entry} headingLevel="h2" />
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    color: var(--coral-deep);
+  }
+
+  .grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
+    list-style: none;
+    padding: 0;
+    margin: 2.5rem 0 0;
+  }
+</style>

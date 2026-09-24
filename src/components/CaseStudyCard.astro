@@ -1,0 +1,220 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'caseStudies'>;
+  featured?: boolean;
+  headingLevel?: 'h2' | 'h3';
+}
+
+const { entry, featured = false, headingLevel: Heading = 'h3' } = Astro.props;
+const { title, summary, tags, role } = entry.data;
+const href = `/case-studies/${entry.id}`;
+---
+
+<article class:list={['case', { featured }]}>
+  <div class="content">
+    {featured && <p class="eyebrow">Featured case study</p>}
+    <Heading class="title">
+      <a href={href}>{title}</a>
+    </Heading>
+    <p class="summary">{summary}</p>
+    <dl class="meta">
+      <div>
+        <dt>My role</dt>
+        <dd>{role}</dd>
+      </div>
+    </dl>
+    <ul class="tags" aria-label="Topics">
+      {tags.map((tag) => <li>{tag}</li>)}
+    </ul>
+    <p class="more" aria-hidden="true">Read the case study →</p>
+  </div>
+  {
+    featured && (
+      <div class="art" aria-hidden="true">
+        <span class="ring" />
+        <span class="bar b1" />
+        <span class="bar b2" />
+        <span class="bar b3" />
+        <span class="dot" />
+      </div>
+    )
+  }
+</article>
+
+<style>
+  .case {
+    position: relative;
+    display: grid;
+    background: var(--surface);
+    border: var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    transition:
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
+  }
+
+  /* The whole card is clickable, but only the title is a real link,
+     so screen readers hear one clear link name. */
+  .case:has(a:hover) {
+    transform: translate(-3px, -3px);
+    box-shadow: 9px 9px 0 var(--ink);
+  }
+
+  .title a::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+
+  .title a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .case:has(a:focus-visible) {
+    outline: 3px solid var(--focus);
+    outline-offset: 4px;
+  }
+
+  .title a:focus-visible {
+    outline: none;
+  }
+
+  .content {
+    padding: clamp(1.5rem, 4vw, 2.5rem);
+  }
+
+  .featured {
+    background: var(--violet-tint);
+  }
+
+  .featured .eyebrow {
+    color: var(--violet);
+  }
+
+  .featured .title {
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .summary {
+    font-size: 1.125rem;
+    max-width: 38rem;
+  }
+
+  .meta {
+    margin: 0 0 1.25rem;
+  }
+
+  .meta dt {
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .meta dd {
+    margin: 0;
+    color: var(--muted);
+  }
+
+  .more {
+    margin: 1.5rem 0 0;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: var(--violet);
+  }
+
+  .art {
+    position: relative;
+    min-height: 14rem;
+    background: var(--violet);
+    border-top: var(--border);
+    overflow: hidden;
+  }
+
+  .ring {
+    position: absolute;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    border: 1.25rem solid var(--sun);
+    right: -2rem;
+    top: -2.5rem;
+  }
+
+  .bar {
+    position: absolute;
+    left: 2rem;
+    height: 1.4rem;
+    border-radius: 999px;
+    border: var(--border);
+  }
+
+  .b1 {
+    top: 3rem;
+    width: 55%;
+    background: var(--surface);
+  }
+  .b2 {
+    top: 5.75rem;
+    width: 40%;
+    background: var(--coral);
+  }
+  .b3 {
+    top: 8.5rem;
+    width: 65%;
+    background: var(--teal-tint);
+  }
+
+  .dot {
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background: var(--coral);
+    border: var(--border);
+    right: 3rem;
+    bottom: 1.5rem;
+  }
+
+  @media (min-width: 56rem) {
+    .featured {
+      grid-template-columns: 1.4fr 1fr;
+    }
+    .featured .art {
+      border-top: 0;
+      border-left: var(--border);
+    }
+    .ring {
+      width: 14rem;
+      height: 14rem;
+    }
+    .b1 {
+      top: 30%;
+    }
+    .b2 {
+      top: calc(30% + 2.75rem);
+    }
+    .b3 {
+      top: calc(30% + 5.5rem);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .case {
+      transition: none;
+    }
+    .case:has(a:hover) {
+      transform: none;
+    }
+  }
+</style>

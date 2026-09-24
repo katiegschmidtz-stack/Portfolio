@@ -1,0 +1,123 @@
+---
+import { site } from '../data/site';
+
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+
+const links = [
+  { href: '/#work', label: 'Work' },
+  { href: '/#prototypes', label: 'Prototypes' },
+  { href: '/about', label: 'About' },
+  { href: '/#contact', label: 'Contact' },
+];
+---
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="/" aria-current={path === '/' ? 'page' : undefined}>
+      <span class="logo-mark" aria-hidden="true"></span>
+      {site.name}
+    </a>
+    <nav aria-label="Main">
+      <ul>
+        {
+          links.map((link) => (
+            <li>
+              <a href={link.href} aria-current={path === link.href ? 'page' : undefined}>
+                {link.label}
+              </a>
+            </li>
+          ))
+        }
+        <li>
+          <a class="btn btn-sun resume" href={site.resume} download>
+            Resume <span class="visually-hidden">(PDF download)</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    border-bottom: var(--border);
+    background: var(--bg);
+  }
+
+  .bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem 1.5rem;
+    padding-block: 1rem;
+  }
+
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .logo-mark {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.45rem;
+    background: var(--violet);
+    box-shadow: 3px 3px 0 var(--coral);
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem 0.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav a:not(.btn) {
+    display: inline-block;
+    padding: 0.6rem 0.75rem;
+    min-height: 2.75rem;
+    font-weight: 600;
+    color: var(--ink);
+    text-decoration: none;
+    border-radius: 0.5rem;
+  }
+
+  nav a:not(.btn):hover,
+  nav a[aria-current='page'] {
+    text-decoration: underline;
+    text-decoration-color: var(--violet);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.35em;
+  }
+
+  .resume {
+    min-height: 2.75rem;
+    padding: 0.5rem 1.1rem;
+    margin-left: 0.25rem;
+  }
+
+  @media (max-width: 40rem) {
+    nav {
+      width: 100%;
+    }
+    ul {
+      justify-content: space-between;
+    }
+    nav a:not(.btn) {
+      padding-inline: 0.4rem;
+    }
+    .resume {
+      margin-left: 0;
+    }
+  }
+</style>
