@@ -299,17 +299,17 @@ export const skills = [
 export const recognition = [
   {
     name: "Webby Honoree",
-    detail: "Recognized for excellence in AI",
+    detail: "Recognized for excellence in AI · 2026",
     url: "https://winners.webbyawards.com/winner/katie-schmidtz",
   },
   {
     name: "Exceptional Impact Award",
-    detail: "Apply Digital",
+    detail: "Apply Digital · 2026",
     url: "",
   },
   {
     name: "SHAPE Award Winner",
-    detail: "Apply Digital",
+    detail: "Apply Digital · 2024",
     url: "",
   },
 ];
