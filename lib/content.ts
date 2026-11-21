@@ -4,9 +4,9 @@
 export const profile = {
   name: "Katie Schmidtz",
   title: "Product Leader · AI Platforms & Commerce",
-  location: "Calgary, AB · Open to remote",
+  location: "Calgary, AB · Open to remote or hybrid",
   email: "katieg.schmidtz@gmail.com",
-  linkedin: "", // TODO: add LinkedIn URL
+  linkedin: "", // intentionally blank: site is shared directly, not via LinkedIn
   headline: "I turn ambitious AI bets into products people use and leaders fund.",
   intro:
     "Product leader with 10+ years building consumer ecommerce and enterprise AI platforms. I led the 0→1 build of an enterprise AI platform now generating eight figures of value a quarter, and I've shipped the conversion, checkout, and platform work that moves revenue in commerce.",
@@ -83,6 +83,7 @@ export const caseStudies: CaseStudy[] = [
     results: [
       "$13.5M in value generated in Q1 2026, up 67% QoQ",
       "98,000+ hours saved (about $12M) and $24M in EBITDA-contributing content value",
+      "40+ Kraft Heinz brands enabled, with 80%+ engagement sustained through 2026",
       "40% QoQ increase in time saved and 8% QoQ MAU growth",
       "The team hit its $10M Q3 2025 total value goal with 26 days to spare",
     ],
@@ -108,21 +109,22 @@ export const caseStudies: CaseStudy[] = [
   {
     id: "agents",
     tag: "Agentic AI",
-    title: "Shipping enterprise AI agents for a global manufacturer",
-    org: "Apply Digital · 2026",
+    title: "Shipping enterprise AI agents for Aptar",
+    org: "Apply Digital for Aptar · 2026",
     summary:
       "Created the framework that decides which AI agents get built, then shipped the first ones.",
     problem:
-      "A global manufacturer had dozens of AI agent ideas and no shared way to decide which ones were worth building.",
+      "Aptar, a global packaging manufacturer, had dozens of AI agent ideas and no shared way to decide which ones were worth building.",
     moves: [
       "Built an Agent Prioritization Framework, later showcased company-wide at Apply Digital's global all-hands.",
-      "Shipped the first custom agent and laid the foundation for the next prioritized agents.",
-      "Demoed an NDA review agent that earned positive feedback from the client's legal team, with a Sales pilot planned.",
+      "Built 7 custom Gemini Enterprise agents in 2 months, covering legal (NDA review), ESG, brand, and regulatory work.",
+      "Demoed an NDA review agent that earned positive feedback from Aptar's legal team, with a Sales pilot planned.",
       "Led R&D and innovation discovery interviews that turned into a follow-on engagement.",
     ],
     results: [
+      "7 custom agents built in 2 months",
       "A repeatable way to pick agent bets",
-      "First agents live, with a follow-on statement of work confirmed",
+      "Follow-on work confirmed to bring AI into Aptar's R&D innovation process",
     ],
   },
   {
@@ -186,9 +188,9 @@ export const builds = [
   {
     name: "Cerebral Palsy Kids & Families",
     url: "https://calgary-cp-rebuild.vercel.app/",
-    what: "Pro bono website refresh for a Calgary nonprofit",
+    what: "Pro bono website rebuild for a Calgary nonprofit",
     details:
-      "A rebuilt, easier-to-navigate site that helps families find support and programs.",
+      "Rebuilt to improve navigation and user experience, grow membership, get found in search and AI answers (GEO/AEO), and support adapted bike sales.",
   },
   {
     name: "This site",
@@ -210,6 +212,7 @@ export const experience = [
       "Promoted to lead 2 Senior PMs and a 30+ person agile delivery team building TasteMaker, Kraft Heinz's enterprise Marketing & Innovation AI platform.",
       "Drove 67% QoQ growth in Generation Value ($13.5M in Q1 2026), a 40% QoQ increase in time saved, and 8% MAU growth QoQ.",
       "Own end-to-end platform growth strategy across acquisition, retention, and education for a global enterprise user base.",
+      "Also lead Apply Digital's AI engagement with Aptar: built the Agent Prioritization Framework and 7 custom Gemini Enterprise agents in 2 months (legal, ESG, brand, regulatory).",
     ],
   },
   {
