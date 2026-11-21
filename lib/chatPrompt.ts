@@ -7,6 +7,7 @@ import {
   experience,
   skills,
   education,
+  recognition,
 } from "./content";
 
 // Built once at module load from static content, so the prefix is byte-stable
@@ -38,6 +39,8 @@ function buildFacts(): string {
   for (const b of builds) lines.push(`- ${b.name}: ${b.what}. ${b.details}${b.url ? ` (${b.url})` : ""}`);
   lines.push("", "## Skills");
   for (const s of skills) lines.push(`- ${s.group}: ${s.items.join(", ")}`);
+  lines.push("", "## Awards and recognition");
+  for (const r of recognition) lines.push(`- ${r.name}: ${r.detail}${r.url ? ` (${r.url})` : ""}`);
   lines.push("", "## Education and certifications");
   education.forEach((x) => lines.push(`- ${x}`));
   return lines.join("\n");

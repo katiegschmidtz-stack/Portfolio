@@ -9,6 +9,7 @@ import {
   builds,
   buildStack,
   suggestedQuestions,
+  recognition,
 } from "@/lib/content";
 
 export default function Home() {
@@ -51,6 +52,27 @@ export default function Home() {
               <p>value generated in one quarter by the AI platform I built from zero</p>
               <div className="hero-dots"><i /><i /><i /></div>
             </div>
+          </div>
+        </section>
+
+        <section className="recognition" aria-label="Awards and recognition">
+          <div className="wrap recognition-inner">
+            <span className="recognition-label">Recognition</span>
+            <ul>
+              {recognition.map((r) => (
+                <li key={r.name}>
+                  {r.url ? (
+                    <a href={r.url} target="_blank" rel="noopener noreferrer">
+                      <strong>{r.name}</strong> <span>{r.detail} ↗</span>
+                    </a>
+                  ) : (
+                    <>
+                      <strong>{r.name}</strong> <span>{r.detail}</span>
+                    </>
+                  )}
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
 

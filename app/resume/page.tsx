@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import PrintButton from "@/components/PrintButton";
-import { profile, experience, skills, education } from "@/lib/content";
+import { profile, experience, skills, education, recognition } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Resume · Katie Schmidtz",
@@ -56,6 +56,17 @@ export default function Resume() {
             </div>
           ))}
         </dl>
+      </section>
+
+      <section>
+        <h2>Recognition</h2>
+        <ul>
+          {recognition.map((r) => (
+            <li key={r.name}>
+              {r.url ? <a href={r.url}>{r.name}</a> : r.name}, {r.detail}
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section>
