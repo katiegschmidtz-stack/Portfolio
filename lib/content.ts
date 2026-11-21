@@ -81,6 +81,7 @@ export const caseStudies: CaseStudy[] = [
       "Represented Kraft Heinz as its product partner at Google Next 2025, leading co-innovation sessions with senior leadership.",
     ],
     results: [
+      "2026 Webby Honoree, recognized for excellence in AI",
       "$13.5M in value generated in Q1 2026, up 67% QoQ",
       "98,000+ hours saved (about $12M) and $24M in EBITDA-contributing content value",
       "40+ Kraft Heinz brands enabled, with 80%+ engagement sustained through 2026",
@@ -299,7 +300,7 @@ export const skills = [
 export const recognition = [
   {
     name: "Webby Honoree",
-    detail: "Recognized for excellence in AI · 2026",
+    detail: "TasteMaker, recognized for excellence in AI · 2026",
     url: "https://winners.webbyawards.com/winner/katie-schmidtz",
   },
   {
