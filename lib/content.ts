@@ -296,6 +296,24 @@ export const skills = [
   },
 ];
 
+export const recognition = [
+  {
+    name: "Webby Honoree",
+    detail: "Recognized for excellence in AI",
+    url: "https://winners.webbyawards.com/winner/katie-schmidtz",
+  },
+  {
+    name: "Exceptional Impact Award",
+    detail: "Apply Digital",
+    url: "",
+  },
+  {
+    name: "SHAPE Award Winner",
+    detail: "Apply Digital",
+    url: "",
+  },
+];
+
 export const education = [
   "Bachelor of Arts, English Literature, University of Calgary (2013)",
   "Reforge: AI Strategy (2024), User Insights for Product Decisions (2023), Data for Product Managers (2022)",
