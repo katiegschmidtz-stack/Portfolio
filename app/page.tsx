@@ -112,7 +112,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="builds" className="section">
+        <section id="builds" className="section tint">
           <div className="wrap">
             <p className="eyebrow">Hands-on with AI</p>
             <h2 className="section-title">Things I&apos;ve built</h2>
