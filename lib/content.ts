@@ -25,18 +25,17 @@ export type Metric = {
 
 export const metrics: Metric[] = [
   {
-    value: 13.5,
+    value: 30,
     prefix: "$",
-    suffix: "M",
-    decimals: 1,
-    label: "value generated in one quarter",
-    detail: "TasteMaker, Q1 2026, up 67% QoQ",
+    suffix: "M+",
+    label: "value generated in 2026",
+    detail: "TasteMaker, including $13.5M in Q1 alone (up 67% QoQ)",
   },
   {
-    value: 98,
+    value: 100,
     suffix: "K+",
-    label: "hours saved",
-    detail: "about $12M in time savings across Kraft Heinz brand teams",
+    label: "hours saved in 2026",
+    detail: "for Kraft Heinz brand teams using TasteMaker",
   },
   {
     value: 24,
@@ -82,8 +81,9 @@ export const caseStudies: CaseStudy[] = [
     ],
     results: [
       "2026 Webby Honoree, recognized for excellence in AI",
-      "$13.5M in value generated in Q1 2026, up 67% QoQ",
-      "98,000+ hours saved (about $12M) and $24M in EBITDA-contributing content value",
+      "$30M+ in value generated and 100K+ hours saved in 2026",
+      "$13.5M in value generated in Q1 2026 alone, up 67% QoQ",
+      "$24M in EBITDA-contributing content value",
       "40+ Kraft Heinz brands enabled, with 80%+ engagement sustained through 2026",
       "40% QoQ increase in time saved and 8% QoQ MAU growth",
       "The team hit its $10M Q3 2025 total value goal with 26 days to spare",
@@ -211,7 +211,7 @@ export const experience = [
     dates: "2026 – Present",
     points: [
       "Promoted to lead 2 Senior PMs and a 30+ person agile delivery team building TasteMaker, Kraft Heinz's enterprise Marketing & Innovation AI platform.",
-      "Drove 67% QoQ growth in Generation Value ($13.5M in Q1 2026), a 40% QoQ increase in time saved, and 8% MAU growth QoQ.",
+      "TasteMaker generated $30M+ in value and saved 100K+ hours in 2026, including 67% QoQ growth in Generation Value ($13.5M in Q1), a 40% QoQ increase in time saved, and 8% MAU growth QoQ.",
       "Own end-to-end platform growth strategy across acquisition, retention, and education for a global enterprise user base.",
       "Also lead Apply Digital's AI engagement with Aptar: built the Agent Prioritization Framework and 7 custom Gemini Enterprise agents in 2 months (legal, ESG, brand, regulatory).",
     ],
@@ -223,7 +223,7 @@ export const experience = [
     points: [
       "Autonomous product lead for Kraft Heinz's enterprise AI and ecommerce portfolio, owning vision, strategy, and execution across multiple programs.",
       "Led the 0→1 build of TasteMaker, owning architecture, roadmaps, and value measurement; scaled it across brands with C-suite and VP stakeholders.",
-      "Drove 98,000+ hours saved (~$12M) and $24M in EBITDA-contributing content value, with dashboards quantifying ROI.",
+      "Drove $24M in EBITDA-contributing content value, with value models and dashboards quantifying ROI.",
       "Launched Kraft Heinz's first B2B ecommerce storefront with automated operations and a new recurring revenue model.",
       "Kraft Heinz's primary product partner at Google Next 2025, leading co-innovation sessions with senior leadership.",
     ],
@@ -277,7 +277,7 @@ export const experience = [
 export const skills = [
   {
     group: "AI & Agents",
-    items: ["AI agent product management", "Generative AI / LLM features", "Evals & agent quality", "ML & data science partnership"],
+    items: ["AI agent product management", "Generative AI / LLM features", "Evals & agent quality", "ML & data science partnership", "BMAD method"],
   },
   {
     group: "Commerce",
@@ -293,7 +293,7 @@ export const skills = [
   },
   {
     group: "Tools",
-    items: ["Claude Code", "Google AI Studio & Gemini Enterprise", "Shopify Plus", "Segment & Amplitude", "Figma", "Jira & Confluence", "Contentful", "Salesforce"],
+    items: ["Claude & Claude Code", "Gemini & Gemini Enterprise", "Google AI Studio", "Shopify Plus", "Segment & Amplitude", "Figma", "Jira & Confluence", "Contentful", "Salesforce"],
   },
 ];
 
@@ -319,6 +319,7 @@ export const education = [
   "Bachelor of Arts, English Literature, University of Calgary (2013)",
   "Reforge: AI Strategy (2024), User Insights for Product Decisions (2023), Data for Product Managers (2022)",
   "Apply Digital AI Foundations Certification (2026)",
+  "Trained and proficient in BMAD, Claude, Gemini, and Gemini Enterprise",
   "Certified Scrum Product Owner, Mountain Goat Software (2020)",
 ];
 

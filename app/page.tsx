@@ -47,9 +47,9 @@ export default function Home() {
               <p className="meta">{profile.location}</p>
             </div>
             <div className="hero-card" aria-hidden="true">
-              <div className="hero-badge">Now</div>
-              <p className="hero-card-big">$13.5M</p>
-              <p>value generated in one quarter by the AI platform I built from zero</p>
+              <div className="hero-badge">2026</div>
+              <p className="hero-card-big">$30M+</p>
+              <p>value generated this year by TasteMaker, the AI platform I&apos;ve led from zero</p>
               <div className="hero-dots"><i /><i /><i /></div>
             </div>
           </div>
