@@ -9,7 +9,7 @@ export const profile = {
   linkedin: "", // intentionally blank: site is shared directly, not via LinkedIn
   headline: "I turn ambitious AI bets into products people use and leaders fund.",
   intro:
-    "Product leader with 10+ years building consumer ecommerce and enterprise AI platforms. I led the 0→1 build of an enterprise AI platform now generating eight figures of value a quarter, and I've shipped the conversion, checkout, and platform work that moves revenue in commerce.",
+    "Product leader with 10+ years building consumer ecommerce and enterprise AI platforms. As the forward-deployed AI product lead embedded with Kraft Heinz, I took TasteMaker from prototype to production, where it generated $30M+ in value in 2026. Before that, I shipped the conversion, checkout, and platform work that moves revenue in commerce.",
   lookingFor:
     "Product leadership roles (Group PM, Director, Head of Product) or senior IC roles (Principal PM) building AI-powered products, especially agentic and commerce experiences.",
 };
