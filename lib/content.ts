@@ -181,6 +181,7 @@ export const strengths = [
 export const builds = [
   {
     name: "Habitat Vet",
+    status: "Goes live December 1, 2026",
     url: "https://habitat-vet.vercel.app/",
     what: "Website for a Calgary house-call veterinary practice",
     details:
@@ -188,6 +189,7 @@ export const builds = [
   },
   {
     name: "Cerebral Palsy Kids & Families",
+    status: "Goes live late December 2026",
     url: "https://calgary-cp-rebuild.vercel.app/",
     what: "Pro bono website rebuild for a Calgary nonprofit",
     details:
