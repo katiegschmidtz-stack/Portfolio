@@ -139,7 +139,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="chat" className="section band">
+        <section id="chat" className="section band" data-nosnippet>
           <div className="wrap chat-wrap">
             <div>
               <p className="eyebrow">Chat with my resume</p>

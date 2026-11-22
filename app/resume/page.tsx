@@ -4,6 +4,8 @@ import { profile, experience, skills, education, recognition } from "@/lib/conte
 
 export const metadata: Metadata = {
   title: "Resume · Katie Schmidtz",
+  robots: { index: false, follow: false, nocache: true },
+  alternates: { canonical: "/resume" },
 };
 
 export default function Resume() {
