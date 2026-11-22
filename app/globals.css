@@ -191,6 +191,7 @@ a.build:hover { transform: translateY(-6px) rotate(-0.6deg); border-color: var(-
 .build { border-top: 6px solid var(--olive); }
 .build-what { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--olive-text); margin-bottom: 0.5em; }
 .build h3 { font-size: 1.35rem; }
+.build-status { align-self: flex-start; margin-bottom: 12px; background: var(--cream); color: var(--navy); border: 1.5px solid var(--gold); font-size: 0.78rem; font-weight: 600; padding: 3px 10px; border-radius: 999px; }
 .build p { color: var(--muted); }
 .build-link { margin-top: auto; font-weight: 600; color: var(--navy); }
 @media (max-width: 860px) { .builds { grid-template-columns: 1fr; } }

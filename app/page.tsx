@@ -121,10 +121,11 @@ export default function Home() {
               {builds.map((b) => {
                 const inner = (
                   <>
+                    {"status" in b && b.status && <span className="build-status">{b.status}</span>}
                     <p className="build-what">{b.what}</p>
                     <h3>{b.name}</h3>
                     <p>{b.details}</p>
-                    {b.url ? <span className="build-link">Visit site ↗</span> : <span className="build-link">You&apos;re here ✦</span>}
+                    {b.url ? <span className="build-link">{"status" in b && b.status ? "Preview site ↗" : "Visit site ↗"}</span> : <span className="build-link">You&apos;re here ✦</span>}
                   </>
                 );
                 return b.url ? (
