@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  alternates: { canonical: "/" },
   title: "Katie Schmidtz · Product Leader, AI Platforms & Commerce",
   description:
     "Product leader who built a 0→1 enterprise AI platform generating $13.5M in value a quarter. Case studies, resume, and an AI assistant you can ask about my experience.",
@@ -10,6 +13,8 @@ export const metadata: Metadata = {
     description:
       "0→1 enterprise AI, agentic products, and ecommerce growth. Ask my AI assistant anything about my experience.",
     type: "website",
+    url: SITE_URL,
+    siteName: "Katie Schmidtz",
   },
 };
 
