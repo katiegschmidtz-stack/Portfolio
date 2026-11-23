@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   title: "Katie Schmidtz · Product Leader, AI Platforms & Commerce",
   description:
-    "Product leader who built a 0→1 enterprise AI platform generating $13.5M in value a quarter. Case studies, resume, and an AI assistant you can ask about my experience.",
+    "Product leader who built a 0→1 enterprise AI platform that generated $30M+ in value in 2026. Case studies, resume, and an AI assistant you can ask about my experience.",
   openGraph: {
     title: "Katie Schmidtz · Product Leader, AI Platforms & Commerce",
     description:
@@ -29,7 +30,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
