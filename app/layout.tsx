@@ -6,6 +6,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   alternates: { canonical: "/" },
+  robots: { index: false, follow: false, nocache: true },
   title: "Katie Schmidtz · Product Leader, AI Platforms & Commerce",
   description:
     "Product leader who built a 0→1 enterprise AI platform that generated $30M+ in value in 2026. Case studies, resume, and an AI assistant you can ask about my experience.",

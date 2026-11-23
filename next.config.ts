@@ -1,17 +1,13 @@
 import type { NextConfig } from "next";
 
-// Search visibility: the home page can be indexed; the chat API, the web
-// resume, and any resume download files are kept out of search results.
+// Search visibility: the whole site is kept out of search results. Every
+// response carries a noindex header; robots.txt still lets crawlers fetch
+// pages so they can see it (a blocked URL can still be listed from links).
 const noindex = [{ key: "X-Robots-Tag", value: "noindex, nofollow, noarchive" }];
 
 const nextConfig: NextConfig = {
   async headers() {
-    return [
-      { source: "/api/:path*", headers: noindex },
-      { source: "/resume", headers: noindex },
-      { source: "/:file*.pdf", headers: noindex },
-      { source: "/:file*.docx", headers: noindex },
-    ];
+    return [{ source: "/:path*", headers: noindex }];
   },
 };
 
