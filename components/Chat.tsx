@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
+import { track } from "@vercel/analytics";
 
 type Msg = { role: "user" | "assistant"; content: string };
 
@@ -14,9 +15,12 @@ export default function Chat({ suggestions, email }: { suggestions: string[]; em
     logRef.current?.scrollTo({ top: logRef.current.scrollHeight, behavior: "smooth" });
   }, [messages]);
 
-  async function ask(question: string) {
+  async function ask(question: string, suggested = false) {
     const q = question.trim();
     if (!q || busy) return;
+    // Count chat use without recording what was asked.
+    if (messages.length === 0) track("Chat started", { via: suggested ? "suggested question" : "typed" });
+    track("Chat question");
     const history: Msg[] = [...messages, { role: "user", content: q }];
     setMessages([...history, { role: "assistant", content: "" }]);
     setInput("");
@@ -64,7 +68,7 @@ export default function Chat({ suggestions, email }: { suggestions: string[]; em
             </p>
             <div className="chips">
               {suggestions.map((s) => (
-                <button key={s} className="chip" onClick={() => ask(s)}>
+                <button key={s} className="chip" onClick={() => ask(s, true)}>
                   {s}
                 </button>
               ))}
