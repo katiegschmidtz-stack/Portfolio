@@ -181,11 +181,14 @@ export const strengths = [
 export const builds = [
   {
     name: "Habitat Vet",
-    status: "Goes live December 1, 2026",
     url: "https://habitat-vet.vercel.app/",
     what: "Website for a Calgary house-call veterinary practice",
     details:
-      "Booking form connected to the practice's booking system, a clear referral plan for clients during the vet's leave, FAQ, and accessible, mobile-first design.",
+      "Replaced a $300/month hosted site with one I built and run for $1,500 in year one and $300 a year after. A clear referral plan for clients during the vet's leave, FAQ, and accessible, mobile-first design.",
+    results: [
+      { value: "$5,400", label: "saved for the client over two years" },
+      { value: "75%", label: "lower cost than her old site" },
+    ],
   },
   {
     name: "Cerebral Palsy Kids & Families",

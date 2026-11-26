@@ -36,7 +36,7 @@ function buildFacts(): string {
   lines.push("", "## How Katie works (themes from colleague feedback)");
   for (const s of strengths) lines.push(`- ${s.title}: ${s.body} Colleague quote: "${s.quote}"`);
   lines.push("", "## Things Katie has built hands-on with AI tools");
-  for (const b of builds) lines.push(`- ${b.name}: ${b.what}. ${b.details}${"status" in b && b.status ? ` ${b.status}.` : ""}${b.url ? ` (${b.url})` : ""}`);
+  for (const b of builds) lines.push(`- ${b.name}: ${b.what}. ${b.details}${"status" in b && b.status ? ` ${b.status}.` : ""}${"results" in b && b.results ? ` Results: ${b.results.map((r) => `${r.value} ${r.label}`).join("; ")}.` : ""}${b.url ? ` (${b.url})` : ""}`);
   lines.push("", "## Skills");
   for (const s of skills) lines.push(`- ${s.group}: ${s.items.join(", ")}`);
   lines.push("", "## Awards and recognition");
