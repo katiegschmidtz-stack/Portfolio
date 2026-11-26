@@ -193,6 +193,10 @@ a.build:hover { transform: translateY(-6px) rotate(-0.6deg); border-color: var(-
 .build h3 { font-size: 1.35rem; }
 .build-status { align-self: flex-start; margin-bottom: 12px; background: var(--cream); color: var(--navy); border: 1.5px solid var(--gold); font-size: 0.78rem; font-weight: 600; padding: 3px 10px; border-radius: 999px; }
 .build p { color: var(--muted); }
+.build-results { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 4px 0 18px; }
+.build-results div { background: var(--olive-tint); border-radius: 14px; padding: 10px 14px; }
+.build-results dt { font: 700 1.5rem/1.1 var(--serif); color: var(--olive-deep); }
+.build-results dd { margin: 2px 0 0; font-size: 0.82rem; color: var(--navy); }
 .build-link { margin-top: auto; font-weight: 600; color: var(--navy); }
 @media (max-width: 860px) { .builds { grid-template-columns: 1fr; } }
 

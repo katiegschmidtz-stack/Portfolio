@@ -125,6 +125,16 @@ export default function Home() {
                     <p className="build-what">{b.what}</p>
                     <h3>{b.name}</h3>
                     <p>{b.details}</p>
+                    {"results" in b && b.results && (
+                      <dl className="build-results">
+                        {b.results.map((r) => (
+                          <div key={r.label}>
+                            <dt>{r.value}</dt>
+                            <dd>{r.label}</dd>
+                          </div>
+                        ))}
+                      </dl>
+                    )}
                     {b.url ? <span className="build-link">{"status" in b && b.status ? "Preview site ↗" : "Visit site ↗"}</span> : <span className="build-link">You&apos;re here ✦</span>}
                   </>
                 );
