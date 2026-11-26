@@ -184,7 +184,7 @@ export const builds = [
     url: "https://habitat-vet.vercel.app/",
     what: "Website for a Calgary house-call veterinary practice",
     details:
-      "Replaced a $300/month hosted site with one I built and run for $1,500 in year one and $300 a year after. A clear referral plan for clients during the vet's leave, FAQ, and accessible, mobile-first design.",
+      "The owner was heading into extended leave and needed a low-cost way to keep the practice visible while she was away. I replaced her $300/month hosted site with one I built and run for $1,500 in year one and $300 a year after, with a clear referral plan for clients during her leave, an FAQ, and accessible, mobile-first design.",
     results: [
       { value: "$5,400", label: "saved for the client over two years" },
       { value: "75%", label: "lower cost than her old site" },
